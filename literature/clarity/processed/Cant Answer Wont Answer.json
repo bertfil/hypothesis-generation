@@ -1,0 +1,2575 @@
+{
+    "paper_id": "Cant Answer Wont Answer",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2025-12-21T15:32:32.735272Z"
+    },
+    "title": "Can't Answer? Won't Answer? An Analysis of Equivocal Responses by Theresa May in Prime Minister's Questions",
+    "authors": [
+        {
+            "first": "Peter",
+            "middle": [],
+            "last": "Bull",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of York",
+                "location": {
+                    "settlement": "Heslington",
+                    "region": "York",
+                    "country": "UK;"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Will",
+            "middle": [],
+            "last": "Strawson",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of York",
+                "location": {
+                    "settlement": "Heslington",
+                    "region": "York",
+                    "country": "UK;"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "The aim of this study was to investigate whether typologies devised for the analysis of equivocation in broadcast political interviews could be usefully extended to the analysis of equivocation in Prime Minister's Questions (PMQs). The study was based on the 23 sessions of PMQs held during Theresa May's first term of office (July 2016 to April 2017). Results showed that May's mean reply rate to questions from Labour Leader Jeremy Corbyn was just 11%, and that her distinctive equivocation style was essentially covert, characterised primarily by ignoring questions, modifying questions, stating or implying that she had already answered questions and acknowledging questions without answering them.",
+    "pdf_parse": {
+        "paper_id": "Cant Answer Wont Answer",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The aim of this study was to investigate whether typologies devised for the analysis of equivocation in broadcast political interviews could be usefully extended to the analysis of equivocation in Prime Minister's Questions (PMQs). The study was based on the 23 sessions of PMQs held during Theresa May's first term of office (July 2016 to April 2017). Results showed that May's mean reply rate to questions from Labour Leader Jeremy Corbyn was just 11%, and that her distinctive equivocation style was essentially covert, characterised primarily by ignoring questions, modifying questions, stating or implying that she had already answered questions and acknowledging questions without answering them.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "In the UK, laws are passed by the House of Commons, which is supreme in legislative matters. The Prime Minister (PM) is answerable to the Commons, and must maintain its support to stay in power. Every Wednesday at noon while Parliament is sitting, Members of Parliament (MPs) have the opportunity for at least the next half hour to pose questions to the PM on any topic of their choice. Known as Prime Minister's Questions (PMQs), the event provides a degree of political accountability, and is arguably the envy of citizens of many less democratic states across the world.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "At the same time, one of the most common complaints about PMQs concerns the failure of PMs to answer questions (Allen et al., 2014) . In the context of televised interviews, there is now a substantive body of research focussed on equivocation by politicians (Harris, 1991; Bull and Mayer, 1993; Clayman, 2001; Clayman and Heritage, 2002; Bull, 2003) . However, a comparable research literature on equivocation by PMs in PMQs is still lacking. In this context, the main aim of this study was to test whether a typology devised for the analysis of equivocation in broadcast political interviews (Bull and Mayer, 1993; Bull, 1994 Bull, , 2003 Bull, , 2009) ) could be usefully extended to the analysis of prime ministerial evasiveness in PMQs. Based on the 23 sessions of PMQs held during Theresa May's first term of office (July 2016 to April 2017), the specific focus was on both the extent to which the PM fails to answer questions, and the various means by which this is accomplished.",
+                "cite_spans": [
+                    {
+                        "start": 111,
+                        "end": 131,
+                        "text": "(Allen et al., 2014)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 258,
+                        "end": 272,
+                        "text": "(Harris, 1991;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 273,
+                        "end": 294,
+                        "text": "Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 295,
+                        "end": 309,
+                        "text": "Clayman, 2001;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 310,
+                        "end": 337,
+                        "text": "Clayman and Heritage, 2002;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 338,
+                        "end": 349,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 593,
+                        "end": 615,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 616,
+                        "end": 626,
+                        "text": "Bull, 1994",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 627,
+                        "end": 639,
+                        "text": "Bull, , 2003",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 640,
+                        "end": 655,
+                        "text": "Bull, , 2009) )",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "In PMQs, backbench MPs who wish to ask a question must enter their names on the Order Paper. The names of entrants are then randomised in a ballot to produce a list from which they will be called by the Speaker (who chairs the debates in the House of Commons).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "MPs who are not so selected may be chosen to ask a question if they 'catch the eye' of the Speaker, which is done by standing and sitting immediately before the PM gives a reply. PMQs always begin with the same tabled question, asking the PM to list his/her 'official engagements' for the day. At this point, the called Member can then follow with a so-called supplementary, namely, a question on almost any topic of their choice relating to some aspect of the PM's responsibility or government policy. In addition to the official engagements question, 'closed' questions on a particular topic can also be asked, which allow the PM to read out a prepared answer before a supplementary question on the same topic is posed.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Because MPs have the advantage of posing supplementaries without notice, questions have the important elements of unpredictability and surprise. However, MPs are limited to only one supplementary, and cannot follow up the PM's response with any further utterance (Harris, 2001) . In contrast, the Leader of the Opposition (LO) is allowed up to six questions, thereby does have the opportunity for follow-ups. The LO's questions are typically posed all in one bloc, but occasionally are split (e.g. into two blocks of three).",
+                "cite_spans": [
+                    {
+                        "start": 263,
+                        "end": 277,
+                        "text": "(Harris, 2001)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "In PMQs, MPs must orient to the expectation that the dialogue should follow a question-response pattern. Furthermore, they are expected to avoid what is termed 'unparliamentary language'. Specifically, they should not be abusive or insulting, call another member a liar, suggest another MP has false motives, or misrepresent another MP. These conventions are enforced by the Speaker, who may ask a Member to withdraw an objectionable utterance. Historically, Speakers have objected to the use of abusive epithets such as blackguard, coward, git, guttersnipe, hooligan, rat, swine, traitor, and stoolpigeon (House of Commons Information Office, 2010). An MP who refuses to comply with the Speaker may be suspended from the House (referred to in parliamentary procedure as 'naming').",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Although there have been instances of praise for PMQs (e.g. Sedgemore, 1980; Thatcher, 1993; Gimson, 2012; The Guardian, 2010) , it has prompted severe criticism from select committees, parliamentarians and commentators for its adversarial discourse (e.g. Thomas, 2006; Blair, 2010) . For example, the current Speaker, John Bercow complained about the 'character, conduct, content, and culture' of PMQs, arguing that it is dominated by questions from the LO to the exclusion of backbench questions, that MPs treat the PM like 'a President in sole control of the [. . .] Government', and that MPs 'yell and heckle' in an 'unbecoming manner' providing 'scrutiny by screech' (Bercow, 2010) .",
+                "cite_spans": [
+                    {
+                        "start": 60,
+                        "end": 76,
+                        "text": "Sedgemore, 1980;",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 77,
+                        "end": 92,
+                        "text": "Thatcher, 1993;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 93,
+                        "end": 106,
+                        "text": "Gimson, 2012;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 107,
+                        "end": 126,
+                        "text": "The Guardian, 2010)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 256,
+                        "end": 269,
+                        "text": "Thomas, 2006;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 270,
+                        "end": 282,
+                        "text": "Blair, 2010)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 672,
+                        "end": 686,
+                        "text": "(Bercow, 2010)",
+                        "ref_id": "BIBREF2"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Academic research focused on PMQs amply supports its reputation for adversarialism. Thus, Bates et al. (2014) analysed the opening sessions of PMQs for five PMs from 1979 to 2010 (Margaret Thatcher, John Major, Tony Blair, Gordon Brown and David Cameron) . Their aim was to test a general perception that PMQs have developed into a focal point for shallow political point scoring rather than serious prime ministerial scrutiny. They found that the conduct of PMQs had become rowdier over the period sampled, with weekly sessions increasingly dominated by the leaders of the two main parties to the gradual exclusion of backbench MPs.",
+                "cite_spans": [
+                    {
+                        "start": 90,
+                        "end": 109,
+                        "text": "Bates et al. (2014)",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 157,
+                        "end": 239,
+                        "text": "PMs from 1979 to 2010 (Margaret Thatcher, John Major, Tony Blair, Gordon Brown and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 240,
+                        "end": 254,
+                        "text": "David Cameron)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "According to Harris (2001) , much of PMQs discourse comprises intentional and explicitly face-threatening acts (FTAs). These are forms of speech which may make listeners look bad, or threaten their future freedom of action, referred to respectively as threats to positive face and negative face (following Brown and Levinson, 1978, 1987) . Harris provided several illustrative examples of FTAs, for example, asking disingenuous questions to which the questioner already knows the answer. Bull and Wells (2012) conducted a more systematic analysis in PMQs in terms of what has been called face aggravation; this refers to aggressive facework, whereby antagonists seek to score points at the other's expense (Goffman, 1967) .",
+                "cite_spans": [
+                    {
+                        "start": 13,
+                        "end": 26,
+                        "text": "Harris (2001)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 306,
+                        "end": 315,
+                        "text": "Brown and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 316,
+                        "end": 337,
+                        "text": "Levinson, 1978, 1987)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 488,
+                        "end": 509,
+                        "text": "Bull and Wells (2012)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 706,
+                        "end": 721,
+                        "text": "(Goffman, 1967)",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Like Harris (2001) , Bull and Wells argued that face aggravation between the PM and LO is not just acceptable as parliamentary discourse, it is both sanctioned and rewarded-a means whereby the LO may enhance his/her own status. Bull and Wells identified six distinctive ways whereby FTAs may be performed in questions, and five whereby the PM may counter FTAs in responses. They further argued that PMQs should be regarded as another of the situations identified by Culpeper (1996) , where impoliteness is not a marginal activity, but central to the interaction that takes place.",
+                "cite_spans": [
+                    {
+                        "start": 5,
+                        "end": 18,
+                        "text": "Harris (2001)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 466,
+                        "end": 481,
+                        "text": "Culpeper (1996)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "One way of conceptualising adversarialism in PMQs is in terms of personal attacks by the protagonists. Waddle et al. (2019) devised a coding system for identifying such personal attacks, based on the concept of personal disrespect.",
+                "cite_spans": [
+                    {
+                        "start": 103,
+                        "end": 123,
+                        "text": "Waddle et al. (2019)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Their study was based on the same five PMs as Bates et al. (2014) , but included the latter sessions of their premierships as well as those at the start (in total, 120 question-response sequences for each PM). Of the five PMs, David Cameron had the highest proportion of personal attacks in his responses to questions (60%), significantly more than each of the four PMs who preceded him. Comparable figures for his predecessors were: Margaret Thatcher 24%; John Major 30%; Tony Blair 24%; and Gordon Brown 38%. From these results, personal attacks can be seen to be very much a feature of PMQs discourse. This adversarial discourse is not well received by the public, according to the results of a study of public attitudes published by the Hansard Society ('Tuned in or Turned off: Public Attitudes to Prime Minister's Questions', Allen et al., 2014) . This study was based on online focus groups, and an opinion poll (Audit of Political Engagement) posed to a representative sample of 1, 286 UK adults. Across the focus groups, there was a strong reaction to PMQs as 'childish'. The interaction between the politicians-likened by some to badly behaved children in a playground-was considered uncivilised and disrespectful. Overall, the process was described as 'pointless', a 'waste of time', and an exercise in 'futility'. Many of the respondents were infuriated by a perceived failure to answer a 'straight question', combined with scoring party points. This audit of political engagement showed that although some people liked the tone and format of PMQs, they were in a minority; for the majority of the respondents, the observed behaviour of MPs at PMQs fostered negative perceptions of Parliament, and damaged its reputation. So, for example, in response to the statement 'There is too much party political point-scoring instead of answering the question', 67% of people agreed, and only 5% disagreed (28% 'don't know').",
+                "cite_spans": [
+                    {
+                        "start": 46,
+                        "end": 65,
+                        "text": "Bates et al. (2014)",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 832,
+                        "end": 851,
+                        "text": "Allen et al., 2014)",
+                        "ref_id": "BIBREF0"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Not answering questions is an accusation commonly levelled at politicians, but to what extent is this actually true? In the analysis of equivocation in political interviews, a coding procedure for identifying questions, replies and non-replies has been devised by the author (Bull, 1994 (Bull, , 2003 (Bull, , 2009)) , according to which it is possible to calculate what is termed reply rate. This simply refers to the proportion of questions that receive an explicit reply, defined as a response where politician provides the information requested in the question: the lower the reply rate, the more equivocal the politician. Using this coding procedure, analyses of 33 interviews conducted with British party political leaders (broadcast between 1987 and 1992) showed a mean reply rate of just 46% (Bull, 1994) . An independent study of a completely different set of interviews with Margaret Thatcher and Labour leader Neil Kinnock showed a mean reply rate of only 39% (Harris, 1991) . A more recent study, based on the 2015 and 2017 British general elections, was conducted of 26 interviews with leaders of the Conservatives, Labour, Liberal Democrats and the United Kingdom Independence Party (UKIP) (Waddle and Bull, 2019) . Overall, the results showed reply rates comparable with those cited by Bull (1994) , with a mean of 38% (2015 general election 43%; 2017 general election 34%). Notably, however, reply rates for Theresa May were much lower. A rate of just 27% was found across two interviews given by May shortly after became PM (13 July 2016 , Bull, 2016) . A further analysis of four interviews from the 2017 British general election (Bull, 2017) found a rate of 27% for May (28% for Corbyn).",
+                "cite_spans": [
+                    {
+                        "start": 275,
+                        "end": 286,
+                        "text": "(Bull, 1994",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 287,
+                        "end": 300,
+                        "text": "(Bull, , 2003",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 301,
+                        "end": 316,
+                        "text": "(Bull, , 2009))",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 800,
+                        "end": 812,
+                        "text": "(Bull, 1994)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 971,
+                        "end": 985,
+                        "text": "(Harris, 1991)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1204,
+                        "end": 1227,
+                        "text": "(Waddle and Bull, 2019)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1301,
+                        "end": 1312,
+                        "text": "Bull (1994)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 1541,
+                        "end": 1554,
+                        "text": "(13 July 2016",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1555,
+                        "end": 1568,
+                        "text": ", Bull, 2016)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 1648,
+                        "end": 1660,
+                        "text": "(Bull, 2017)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "In comparison with political interviews, it is interesting to consider reply rates in televised interviews with people who are not politicians. The late Diana, Princess of Wales answered 78% of questions in a celebrated interview with Martin Bashir (Bull, 1997) . Louise Woodward, a British au-pair who was convicted for the manslaughter of eight-month-old Matthew Eappen, answered 70% of questions, also in an interview with Martin Bashir. Former White House intern Monica Lewinsky, in an interview with Jon Snow regarding her notorious affair with President Bill Clinton, answered 89% of questions. The mean reply rate of 79% across these three interviews with non-politicians is significantly higher than the mean reply rate of 46% for the 33 political interviews reported above (Bull, 2000) .",
+                "cite_spans": [
+                    {
+                        "start": 249,
+                        "end": 261,
+                        "text": "(Bull, 1997)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 782,
+                        "end": 794,
+                        "text": "(Bull, 2000)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Although there is now a substantive research literature on reply rates in broadcast political interviews, a comparable literature on PMQs is lacking. In the study of five PMs referred to above, Bates et al. (2014) analysed answers to questions in terms of what they called\" fullness\". On this basis, the best quality answers were given by Tony Blair, the worst by Margaret Thatcher and Gordon Brown. However, no figures were provided for reply rates as such.",
+                "cite_spans": [
+                    {
+                        "start": 194,
+                        "end": 213,
+                        "text": "Bates et al. (2014)",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "One study that does provide such data was focussed on interactions between David Cameron and the current Labour LO Jeremy Corbyn (Bull and Waddle, 2018) . This analysis was conducted concurrently with the one reported in this article, based on the first 20 sessions of PMQs following Corbyn's election as Leader of the Labour Party (12 September 2015). Following that appointment, Corbyn introduced a new technique to PMQs of sourcing questions from members of the public. It was found that there was no significant difference between Cameron's reply rate to these public questions (23%) and to questions not so sourced (20%) (overall reply rate 21%). Notably, these rates are much lower than the figures for political interviews quoted above. The results of this study amplify the need for the further analysis reported in this article of the extent to which equivocation is a particular feature of PMQs discourse.",
+                "cite_spans": [
+                    {
+                        "start": 129,
+                        "end": 152,
+                        "text": "(Bull and Waddle, 2018)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "In addition to the analysis of reply rates, equivocation has also been analysed through a typology which identifies 32 different forms of equivocation, organised in terms of both superordinate and subordinate categories (Bull and Mayer, 1993 ). So, for example, attacks the question is a superordinate category, divided into eight subordinate categories (e.g. the question is based on a false premise, the question is factually inaccurate). This typology was later extended to include three new categories (Bull, 2003) . One was superordinate, termed literalism, in which a question is taken literally (and not in the sense in which it was clearly intended) as a means of not giving a reply. The other two were subcategories of the superordinate category declines to answer. These were termed pleading ignorance (saying 'I don't know' in response to a question), and the deferred reply (the politician is unable to answer the question for the present time). In total, the revised version of the equivocation typology lists 35 forms of non-reply (Bull, 2003) (see 'Methods' section for further details).",
+                "cite_spans": [
+                    {
+                        "start": 220,
+                        "end": 241,
+                        "text": "(Bull and Mayer, 1993",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 506,
+                        "end": 518,
+                        "text": "(Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 1045,
+                        "end": 1057,
+                        "text": "(Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "This typology has been applied in a series of studies conducted by the author and colleagues on political interviews with British political leaders of the 1980s and 1990s-Margaret Thatcher (Bull and Mayer, 1993) , Neil Kinnock (Bull and Mayer, 1993; Bull, 2003) , and John Major (Bull, 2003) . Distinctive features of their equivocation styles were identified. For example, Thatcher was found to make personal attacks on the interviewers, Major to use pleading ignorance (as defined above), Kinnock to use what was a termed a negative answer (where he would state what would not happen rather than what would happen).",
+                "cite_spans": [
+                    {
+                        "start": 189,
+                        "end": 211,
+                        "text": "(Bull and Mayer, 1993)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 227,
+                        "end": 249,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 250,
+                        "end": 261,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 279,
+                        "end": 291,
+                        "text": "(Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Most recently, to identify a distinctive feature of Theresa May's equivocation style, a 36th category was identified (Bull, 2016) . Based on two interviews soon after May became PM, this new was entitled gives non-specific response to a specific question. So, for example, to an interviewer question about a second independence referendum in Scotland ('[. . .] would you prevent a second referendum happening?'), May responded 'I don't think it's a question of whether there could be second referendum, it's whether there should be a second referendum'. May's response is polite and relevant to the substance of the question, but does not state whether or not she would prevent a second independence referendum in Scotland (interview with Andrew Marr, 4 September, 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 117,
+                        "end": 129,
+                        "text": "(Bull, 2016)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 714,
+                        "end": 770,
+                        "text": "Scotland (interview with Andrew Marr, 4 September, 2016)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Notably, the original version of the equivocation typology (Bull and Mayer, 1993) has been utilised in several studies of political equivocation outside the UK. For example, one was based on Question Time in the Australian House of Representatives (Rasiah, 2010) . In Australia, questions without notice (asked during Question Time) are posed by MPs and usually directed at Ministers regarding their portfolios. All Ministers are expected to be present to answer these questions. Rasiah used the typology to classify what she called 'agenda shifts', instances where politicians shifted the agenda posed in the question.",
+                "cite_spans": [
+                    {
+                        "start": 59,
+                        "end": 81,
+                        "text": "(Bull and Mayer, 1993)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 248,
+                        "end": 262,
+                        "text": "(Rasiah, 2010)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "In a second study, an analysis was conducted of eight broadcast television interviews with leading Turkish politicians broadcast just before their general election of June, 2011 (Cakir et al., 2016) . Eight out of the eleven superordinate categories were found to be applicable to these interviews. Recep Erdo gan (President of Turkey since 2014, PM 2003-2014) was observed to be particularly evasive, avoiding giving detailed information about the policies of the government.",
+                "cite_spans": [
+                    {
+                        "start": 178,
+                        "end": 198,
+                        "text": "(Cakir et al., 2016)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "In a third study (Weilin and Xiaoying, 2008) , the focus was on equivocation at press conferences by Chinese and American spokespersons, who were responding to questions from journalists regarding the development of nuclear weapons by North Korea (September to December 2006). Again, 8 of the 11 superordinate categories were found to be applicable to the responses of both the Chinese and Americans. In addition, their strategies were grouped into two higher-order constructs of covert and overt practices. In an overt response, the equivocation is quite open (e.g. in declining to answer a question), whereas in a covert response, the equivocation is not explicitly acknowledged, or may even be concealed (Clayman, 2001; Clayman and Heritage, 2002) . Overall, it was found that the Chinese spokespersons tended to use more covert practices, the Americans more overt practices. Thus, the above findings demonstrate that the original version of the typology (Bull and Mayer, 1993) has already been utilised to analyse equivocation in different political contexts in different countries (Weilin and Xiaoying, 2008; Rasiah, 2010; Cakir et al., 2016) . Accordingly, it seemed highly likely that it could be usefully extended to the analysis of equivocation in PMQs in the UK, the main focus of this study. Especial consideration was given as to whether any new categories should be introduced to the typology to categorise different types of equivocation in this particular political context, and to whether Theresa May has a distinctive equivocation style.",
+                "cite_spans": [
+                    {
+                        "start": 17,
+                        "end": 44,
+                        "text": "(Weilin and Xiaoying, 2008)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 707,
+                        "end": 722,
+                        "text": "(Clayman, 2001;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 723,
+                        "end": 750,
+                        "text": "Clayman and Heritage, 2002)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 958,
+                        "end": 980,
+                        "text": "(Bull and Mayer, 1993)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1086,
+                        "end": 1113,
+                        "text": "(Weilin and Xiaoying, 2008;",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1114,
+                        "end": 1127,
+                        "text": "Rasiah, 2010;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1128,
+                        "end": 1147,
+                        "text": "Cakir et al., 2016)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "In the study reported here, all analyses were focussed exclusively on interactions between the PM and Labour LO, Jeremy Corbyn. This focus on the two party leaders can be amply justified in terms of the way in which their interaction has become increasingly central to PMQs, as substantively documented by Bates et al. (2014) in their study of five PMs referred to above. Thus, for the period of their analysis, Bates et al. found that the proportion of time taken up both by LO questions and PM responses had increased, that the LO tended to ask longer questions and more of them, and that in responding to those questions, the PM tended to produce longer responses.",
+                "cite_spans": [
+                    {
+                        "start": 306,
+                        "end": 325,
+                        "text": "Bates et al. (2014)",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Overall, the main aims of the study can be summarised as follows:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "(1) To test whether typologies devised for the analysis of equivocation in political interviews (Bull and Mayer, 1993; Bull 1994 Bull , 2003 Bull , 2009 ) could be extended to the analysis of equivocation in PMQs.",
+                "cite_spans": [
+                    {
+                        "start": 96,
+                        "end": 118,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 119,
+                        "end": 128,
+                        "text": "Bull 1994",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 129,
+                        "end": 140,
+                        "text": "Bull , 2003",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 141,
+                        "end": 152,
+                        "text": "Bull , 2009",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "(2) To analyse reply rates in PMQs with particular reference to the performance of Theresa May.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "(3) To test whether a distinctive equivocation style could be identified for Theresa May, based on the equivocation typology (Bull and Mayer, 1993; Bull, 2003) as described above.",
+                "cite_spans": [
+                    {
+                        "start": 125,
+                        "end": 147,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 148,
+                        "end": 159,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "For typology of identifying questions and responses, see Bull (1994 Bull ( , 2003 Bull ( , 2009) ) and for typology of coding different forms of equivocation, see Bull and Mayer (1993) and Bull (2003) . Transcripts of parliamentary proceedings are available from Hansard, the official written record of UK parliamentary debates. Hansard, however, is not a full verbatim record of parliamentary proceedings. It is intended to be 'substantially the verbatim report, with repetitions and redundancies omitted and with obvious mistakes corrected, but which on the other hand leaves out nothing that adds to the meaning of the speech or illustrates the argument' (May, 2004, p. 260) . For this reason, and to facilitate more precise analysis of the proceedings, use of video recordings of the PMQs sessions was also made. These are accessible from the Parliament website.",
+                "cite_spans": [
+                    {
+                        "start": 57,
+                        "end": 67,
+                        "text": "Bull (1994",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 68,
+                        "end": 81,
+                        "text": "Bull ( , 2003",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 82,
+                        "end": 98,
+                        "text": "Bull ( , 2009) )",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 163,
+                        "end": 184,
+                        "text": "Bull and Mayer (1993)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 189,
+                        "end": 200,
+                        "text": "Bull (2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 658,
+                        "end": 677,
+                        "text": "(May, 2004, p. 260)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Apparatus",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Analyses To obtain a measure of reply rate, question-response sequences were analysed in terms of the typology devised for identifying questions, replies and non-replies (Bull, 1994 (Bull, , 2003 (Bull, , 2009)) . In addition, different forms of equivocation were categorised in terms of the equivocation typology (Bull and Mayer, 1993; Bull, 2003) . The coding for both procedures was carried out by the two authors working independently. Any disagreements were subsequently resolved by discussion at faceto-face meetings. Previously, a reliability study had been conducted in which the first author of this article and another scorer independently coded two interviews (Bull, 1994) . Reliability was assessed for both the coding of questions, replies and nonreplies, and for the superordinate categories of the equivocation coding system (Bull and Mayer, 1993) . The results, using Cohen's (1960) kappa, showed k \u00bc 0.82 on the scoring of question-replies/non-replies, and k \u00bc 0.75 on the superordinate categories of the equivocation typology. Further details of both typologies are given below.",
+                "cite_spans": [
+                    {
+                        "start": 170,
+                        "end": 181,
+                        "text": "(Bull, 1994",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 182,
+                        "end": 195,
+                        "text": "(Bull, , 2003",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 196,
+                        "end": 211,
+                        "text": "(Bull, , 2009))",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 314,
+                        "end": 336,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 337,
+                        "end": 348,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 671,
+                        "end": 683,
+                        "text": "(Bull, 1994)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 840,
+                        "end": 862,
+                        "text": "(Bull and Mayer, 1993)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 884,
+                        "end": 898,
+                        "text": "Cohen's (1960)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Procedure",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "In terms of the typology for coding questions, replies and nonreplies (Bull, 1994) , the definition of what constitutes a question is by no means self-evident. If questions are defined grammatically, that is, questions are those utterances that take interrogative syntax, then there is no problem. Interrogative syntax is defined as either to subject-verb inversion (e.g. 'Are you going out tonight?', and/or the use of a question word (what, when, why, who, which, where, how)). However, if questions are defined functionally as requests for information, then they do not necessarily require interrogative syntax. For example, declarative questions are identical in form to declarative statements, except for the final rising question intonation (e.g. 'You realise what the risks are?'; 'They've spoken to be ambassador, of course?'). Indeed, some declarative questions may not even be accompanied by rising intonation, although the function of the utterance is still clearly to request information (Quirk et al., 1985) .",
+                "cite_spans": [
+                    {
+                        "start": 70,
+                        "end": 82,
+                        "text": "(Bull, 1994)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 1000,
+                        "end": 1020,
+                        "text": "(Quirk et al., 1985)",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Questions",
+                "sec_num": "2.2.1"
+            },
+            {
+                "text": "In the question typology overall, six principal types are distinguished (see Table 1 ). Only three of these question categories take interrogative syntax, which can be further distinguished according to the type of reply expected (Quirk et al., 1985) . Thus, yes-no or polar questions are those that expect affirmation or negation (e.g. 'Have you finished the book?'). Alternative questions (sometimes also referred to as disjunctive questions) are those that expect as the reply one of two or more options presented in the question (e.g. 'Would you like to go for a walk or stay at home?'). Interrogative word questions are those that typically expect a reply from an open range of replies (e.g. 'What is your name?' or 'When are you going out?'); they are sometimes also referred to as wh-questions, since they typically begin with wh- (Quirk et al., 1985) . The value of making these distinctions is that they provide explicit guidelines for assessing whether a question has received an answer.",
+                "cite_spans": [
+                    {
+                        "start": 230,
+                        "end": 250,
+                        "text": "(Quirk et al., 1985)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 838,
+                        "end": 858,
+                        "text": "(Quirk et al., 1985)",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 83,
+                        "end": 84,
+                        "text": "1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Questions",
+                "sec_num": "2.2.1"
+            },
+            {
+                "text": "Three non-interrogative types of question can also be distinguished, termed declarative, moodless and indirect. Declarative questions have already been defined above (Quirk et al., 1985) . Moodless questions are those that do not have a finite verb (Jucker, 1986) . Indirect questions are a means of asking a question through reporting that of another. These three non-interrogative syntax types of question might seem to present a problem for the guidelines as to what constitutes an answer to an interrogative syntax question. However, as Harris (1991) points out, since moodless and declarative utterances are typically put forward for agreement or disagreement by the interviewee, they can for the most part be regarded as polar questions. To test Harris' hypothesis, an analysis was conducted of all the non-interrogative type questions (N \u00bc 223) in a data set of 33 televised British political interviews broadcast between 1987 and 1992 (Bull, 2003) . This showed that 92% of these questions could be regarded as polar, the remainder as either disjunctive or interrogative word. Thus, the guidelines for answering interrogative syntax questions could easily be extended to include the three types of non-interrogative question listed in Table 1 .",
+                "cite_spans": [
+                    {
+                        "start": 166,
+                        "end": 186,
+                        "text": "(Quirk et al., 1985)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 249,
+                        "end": 263,
+                        "text": "(Jucker, 1986)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 541,
+                        "end": 554,
+                        "text": "Harris (1991)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 943,
+                        "end": 955,
+                        "text": "(Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1249,
+                        "end": 1250,
+                        "text": "1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Questions",
+                "sec_num": "2.2.1"
+            },
+            {
+                "text": "Responses to questions are categorised as either explicit replies, non-replies or intermediate replies. In an explicit reply, the politician gives a full answer to the question. In the study reported in this article, only explicit replies were included in the analysis of reply rate. In a non-reply, the politician completely fails to answer the question. This term was coined by Bull and Mayer (1993) in preference to the term pejorative 'evasion' because, in certain circumstances, it may be perfectly legitimate for a politician not to answer a question (e.g. when it is based on a false or misleading presupposition). Intermediate replies refer to those utterances which, for a variety of reasons, fall somewhere between replies and non-replies. The typology for responses to questions is summarised in Table 2 .",
+                "cite_spans": [
+                    {
+                        "start": 380,
+                        "end": 401,
+                        "text": "Bull and Mayer (1993)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 813,
+                        "end": 814,
+                        "text": "2",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Responses to questions",
+                "sec_num": "2.2.2"
+            },
+            {
+                "text": "The equivocation typology Non-replies and intermediate replies were further coded in terms of the equivocation typology (Bull and Mayer, 1993) , as amended by Bull (2003) . In the 'Introduction' to this article, an outline was provided of the main principles of this typology, which is based on both superordinate and subordinate categories. The 12 superordinate categories are listed in Table 3 ; full details of all 35 categories (including subordinate categories) are provided in Bull (2003, pp. 114-122) .",
+                "cite_spans": [
+                    {
+                        "start": 120,
+                        "end": 142,
+                        "text": "(Bull and Mayer, 1993)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 159,
+                        "end": 170,
+                        "text": "Bull (2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 483,
+                        "end": 507,
+                        "text": "Bull (2003, pp. 114-122)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 394,
+                        "end": 395,
+                        "text": "3",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "2.2.3",
+                "sec_num": null
+            },
+            {
+                "text": "It should be noted that in Table 3 the superordinate category of attacks the interviewer (Bull and Mayer, 1993; Bull, 2003) has been replaced by the broader term personalisation. That change was necessitated due to the identification of a range of personal comments, both critical and non-critical, directed at interviewers by politicians in their responses to questions (Waddle and Bull, 2016) . In the context of PMQs, this more generic category of personalisation is even more appropriate, given the personal antagonism between party leaders in PMQs as amply demonstrated by Waddle et al. (2019) . In using this typology, it should be noted that these equivocation categories are not mutually exclusive, so an equivocal response can be coded in terms of several different categories (Bull, 2003, p. 122) .",
+                "cite_spans": [
+                    {
+                        "start": 89,
+                        "end": 111,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 112,
+                        "end": 123,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 371,
+                        "end": 394,
+                        "text": "(Waddle and Bull, 2016)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 578,
+                        "end": 598,
+                        "text": "Waddle et al. (2019)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 786,
+                        "end": 806,
+                        "text": "(Bull, 2003, p. 122)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 33,
+                        "end": 34,
+                        "text": "3",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "2.2.3",
+                "sec_num": null
+            },
+            {
+                "text": "In relation to the principal aim of this study, it was found that most of May's equivocal responses could be categorised in terms of the 12 superordinate categories of the existing equivocation typology (Bull and Mayer, 1993; Bull, 2003) . Table 4 displays the results for each superordinate category as a percentage of (Bull and Mayer, 1993; Bull, 2003 Bull, , 2009) ) 1. Ignores the question. Makes no attempt to answer the question, or even to acknowledge that a question has been asked. 2. Acknowledges the question. Acknowledges that a question has been asked, but but then equivocates. 3. Questions the question. Requests clarification, or reflects question back to the questioner. 4. Attacks the question. 5. Personalisation. Makes personal comments, typically in the form of personal attacks. 6. Declines to answer. 7. Makes political points. 8. Gives incomplete reply. 9. Repeats answer to previous question. 10. States or implies has already answered question. 11. Apologises. 12. Literalism. The literal aspect of a question which was not intended to be taken literally is answered.",
+                "cite_spans": [
+                    {
+                        "start": 203,
+                        "end": 225,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 226,
+                        "end": 237,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 320,
+                        "end": 342,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 343,
+                        "end": 353,
+                        "text": "Bull, 2003",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 354,
+                        "end": 369,
+                        "text": "Bull, , 2009) )",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 246,
+                        "end": 247,
+                        "text": "4",
+                        "ref_id": "TABREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "May's total number of equivocal responses over the 23 sessions of PMQs (e.g. in 92% of May's equivocal responses, she made political points rather than answering the question). These totals for equivocal responses are based on both nonreplies and intermediate forms of reply, only explicit answers were regarded as unequivocal.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "However, one novel device identified in this study was termed the question has been already been asked before. This category was intended to capture a feature of Theresa May's style in which she states that a question has been asked before, without ever indicating whether it had been answered. So, for example, in response to Jeremy Corbyn's question 'Can the Prime Minister now confirm that access to the single market is a red line for the Government, or is it not?', May responded as follows (HC Deb, 12 October 2016, col. 296 ):",
+                "cite_spans": [
+                    {
+                        "start": 496,
+                        "end": 530,
+                        "text": "(HC Deb, 12 October 2016, col. 296",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "The right honourable Gentleman has asked me this question before. He says it is a simple question, and I will give him the simple answer: what we are going to do is deliver on the vote of the British people to leave the European Union; what we are going to do is be ambitious in our negotiations, to negotiate the best deal for the British people, and that will include the maximum possible access to the European market, for firms to trade with, and operate within, the European market. But I am also clear that the vote of the British people said that we should control the movement of people from the EU into the UK, and, unlike the right hon. Gentleman, we believe we should deliver on what the British people want. Theresa May's response is quite unclear. European Union single market rules require the free movement from one EU member country to another of goods, people, services and capital, the so-called 'four freedoms'. However, while May talks about 'maximum possible access to the European market', she also states that 'we should control the movement of people from the EU into the UK'. Given that May neither affirms nor denies whether access to the single market is a red line for the government, this response is regarded as a non-reply, although at the same time she seems to imply that she has already answered this question.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "In relation to the existing equivocation typology (Bull and Mayer, 1993; Bull, 2003) , it was proposed to include the question has already been asked before as a new sub-category of the superordinate category stating or implying that a question has already been answered; hence, it was included in the data presented in Table 3 .",
+                "cite_spans": [
+                    {
+                        "start": 50,
+                        "end": 72,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 73,
+                        "end": 84,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 326,
+                        "end": 327,
+                        "text": "3",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "A second novel device identified in these analyses of PMQs was what has been termed gives non-specific response to a specific question. This category did not form part of the original equivocation typology (Bull and Mayer, 1993; Bull, 2003) , but was identified in a recent analysis of two broadcast interviews with Theresa May (Bull, 2016) . An example of gives non-specific response to a specific question is given below in relation to another question regarding universal credit (HC Deb, 2 November 2016, col. 880-881):",
+                "cite_spans": [
+                    {
+                        "start": 206,
+                        "end": 228,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 229,
+                        "end": 240,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 328,
+                        "end": 340,
+                        "text": "(Bull, 2016)",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "Corbyn: Is it not the case that her cuts to universal credit will leave millions worse off? May: On the point that the right honourable Gentleman raised in relation to universal credit, the introduction of universal credit was an important reform that was brought about in our welfare system. It is a simpler system, so people can see much more easily where they stand in relation to benefits. Crucially, the point about universal credit is making sure that work always pays. As people work more, they earn more. It is right that we do not want to see people just being written off to a life on benefits and that we are encouraging people to get into the workplace. Jeremy Corbyn's question was quite specific, as to whether cuts to universal credit would leave millions of people worse off. Theresa May did not address this particular issue, instead she talked about the general principles of universal credit, hence her response was categorised as a non-specific response to a specific question.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "Results for this category have also been included but only at the foot of Table 4 , since it had not been decided at this stage whether this should be regarded as a superordinate or subordinate category; this point is considered further in the 'Discussion'.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 80,
+                        "end": 81,
+                        "text": "4",
+                        "ref_id": "TABREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "The second aim of this study was to analyse reply rates in PMQs with particular reference to the performance of Theresa May. Overall, it was found that her mean reply rate averaged over the 23 sessions was just 11%, which was also 11% of all questions asked. These figures are based only on explicit answers (answers by implication averaged 0.3%, partial replies 0.3%). Notably, Cameron's reply rate at 21% of all questions asked (Bull and Waddle, 2018) was almost double that of May's, a statistically highly significant difference (Mann Whitney U \u00bc 117, p(probability).00614).",
+                "cite_spans": [
+                    {
+                        "start": 430,
+                        "end": 453,
+                        "text": "(Bull and Waddle, 2018)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "The third main aim of this study was to consider whether a distinctive equivocation style could be identified for Theresa May. Overall, her most frequently occurring forms of equivocation were: makes political points (92%), ignores the question (43%), gives non-specific response to a specific question (26%), personalisation (23%), states or implies she has already answered question (19%), and acknowledges the question (16%). The potential implications of these findings for identifying a distinctive equivocation style for May are considered below in the Discussion.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": "3."
+            },
+            {
+                "text": "The principal aim of the study was to test whether the existing equivocation typology (Bull and Mayer, 2003; Bull, 2003) , could be usefully extended from broadcast interviews to PMQs. For the most part, it was found that Theresa May's different forms of equivocation could readily be encompassed within its 12 superordinate categories. However, two new forms of equivocation were identified, for which new categories were required.",
+                "cite_spans": [
+                    {
+                        "start": 86,
+                        "end": 108,
+                        "text": "(Bull and Mayer, 2003;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 109,
+                        "end": 120,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "The first (the question has already been asked) is unproblematic, given that it can easily be included as a sub-category of the existing superordinate category of states or implies that the question has already been answered. However, the second (gives non-specific response to a specific question) (Bull, 2016 ) is more problematic. It is not obvious how it fits into the existing typology, in the sense that it cannot readily be construed as a sub-category of any of the 12 major superordinate categories. The proposal here is to extend the existing typology by including a new 13th superordinate category, but however to re-name it as modifies the question.",
+                "cite_spans": [
+                    {
+                        "start": 299,
+                        "end": 310,
+                        "text": "(Bull, 2016",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "This proposal is based on the following argument. In giving non-specific responses, Theresa May is in effect modifying the question, and responding to her own modified version. For example, in the extract presented above in the Results, when Jeremy Corbyn asked whether millions of people would be worse off as a result of cuts to universal credit, May responded by talking about the general principles underlying universal credit. That was not Corbyn's original question, which has been modified by May, and it is to the modified version that she responds.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "This process is even more noticeable in the example discussed in the Introduction from the interview with Andrew Marr (Bull, 2016) . When Marr posed a question about a second independence referendum in Scotland ('. . .. would you prevent a second referendum happening?'), Theresa May responded 'I don't think it's a question of whether there could be second referendum, it's whether there should be a second referendum' (authors' underlining). May then went on to respond to her own version of the question (should there be a second referendum?), not the one posed by Marr. Thus, she stated, '. . . . I think if you look at some of the results that are now coming out of polling in Scotland, they suggest that the Scottish people don't want there to be a second referendum'. The implication was that there should not be a second referendum, although May said nothing about whether she would seek to prevent it (thereby not answering the original question).",
+                "cite_spans": [
+                    {
+                        "start": 118,
+                        "end": 130,
+                        "text": "(Bull, 2016)",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "This concept of modifying the question does not appear in the existing equivocation typology (Bull and Mayer, 1993; Bull, 2003) , which currently makes a four-fold distinction between acknowledging the question, ignoring it, questioning it and attacking it. Hence, this new category would identify a fifth key way in which a politician can work a question in order to equivocate. Clearly, this proposal will require further consideration in future research, but it is the one major revision to the original equivocation typology proposed in this article.",
+                "cite_spans": [
+                    {
+                        "start": 93,
+                        "end": 115,
+                        "text": "(Bull and Mayer, 1993;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 116,
+                        "end": 127,
+                        "text": "Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "The second aim of this study was to analyse reply rates in PMQs with particular reference to the performance of Theresa May. The results of both this study and the concurrent analysis of interactions between David Cameron and Jeremy Corbyn in PMQs (Bull and Waddle, 2018) showed that the system for identifying questions, replies and non-replies, developed from the analysis of political interviews (Bull, 1994) , could readily be applied to the analysis of PMQs.",
+                "cite_spans": [
+                    {
+                        "start": 248,
+                        "end": 271,
+                        "text": "(Bull and Waddle, 2018)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 399,
+                        "end": 411,
+                        "text": "(Bull, 1994)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "In addition, the results of both studies showed that reply rates in interactions between PM and LO in PMQs are noticeably low, with Cameron at 21% (Bull and Waddle, 2018 ) and May at just 11%. In comparison, analyses of political interviews conducted with British party leaders (broadcast between 1987 and 1992) showed a mean reply rate of 46% (Bull, 1994) . More recently, an analysis of interviews with party leaders from the 2015 general election showed a mean reply rate of 43%, of interviews from the 2017 general election a mean reply rate of 38% (Waddle and Bull, 2019) .",
+                "cite_spans": [
+                    {
+                        "start": 147,
+                        "end": 169,
+                        "text": "(Bull and Waddle, 2018",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 278,
+                        "end": 311,
+                        "text": "(broadcast between 1987 and 1992)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 344,
+                        "end": 356,
+                        "text": "(Bull, 1994)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 553,
+                        "end": 576,
+                        "text": "(Waddle and Bull, 2019)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Of course, there are important interactional differences between interviews and PMQs. In political interviews, the questions are from political journalists, who are expected to maintain a stance of impartiality; conversely, in dialogues between PM and LO at PMQs, the PM is responding to questions from the leader of an opposing political party, who may be as partial as he or she chooses. Again, in PMQs (unlike political interviews), there is also always an audience of other politicians, notorious for their vociferous comments and barracking. Furthermore, whereas in PMQs the PM is effectively moderated by the Speaker, in television interviews the interaction is regulated only by the interviewer. Nevertheless, it is notable that even when Jeremy Corbyn posed questions sourced from members of the public, this had no statistically significant effect on the reply rate (23% as opposed to 20% for non-public questions), although of course it was still the LO who was putting the actual question to the PM. Thus, overall the results of both studies overwhelmingly support the public perception (as substantiated by Allen et al. (2014) ), that questions in PMQs often simply go unanswered.",
+                "cite_spans": [
+                    {
+                        "start": 1119,
+                        "end": 1138,
+                        "text": "Allen et al. (2014)",
+                        "ref_id": "BIBREF0"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "The third principal aim of this study was to test whether a distinctive equivocation style could be identified for Theresa May. In the first instance, the data reported here suggest that her style is highly equivocal, given her low reply rate at just 11% all questions asked, significantly lower than the 21% for David Cameron (Bull and Waddle, 2018) . Similarly, the data on broadcast interviews reported in the Introduction also showed low reply rates for Theresa May. A rate of just 27% was found across two interviews shortly after May became PM (13 July 2016, Bull, 2016) . Again, a further analysis of four interviews from the 2017 British general election (Bull, 2017) also found her to have a reply rate of just 27%. In comparison, the analysis of interviews with party leaders referred to above from the 2015 general election showed a mean rate of 43%, of interviews from the 2017 general election a mean rate of 38% (Waddle and Bull, 2018) .",
+                "cite_spans": [
+                    {
+                        "start": 123,
+                        "end": 127,
+                        "text": "May.",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 327,
+                        "end": 350,
+                        "text": "(Bull and Waddle, 2018)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 565,
+                        "end": 576,
+                        "text": "Bull, 2016)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 663,
+                        "end": 675,
+                        "text": "(Bull, 2017)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 926,
+                        "end": 949,
+                        "text": "(Waddle and Bull, 2018)",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "The way in which Theresa May equivocates was analysed in terms of the six most frequently occurring forms of equivocation, as listed above. Two of these categories are unremarkable in identifying whether she has a distinctive equivocation style. Thus, the most frequently occurring category was that of making political points (92%), which in a previous study, based on broadcast interviews with three leading British politicians (Margaret Thatcher, Neil Kinnock, and John Major), was by far the most frequent form of equivocation (Bull, 2003) . Although as acknowledged above, broadcast interviews differ markedly from PMQs, it scarcely seems surprising that in both situations the politicians equivocate most frequently through making political points. Also unremarkable is the category of personalisations (23%), given that May's five predecessors as PM also made frequent personal attacks on the opposing LO (Waddle et al., 2019) .",
+                "cite_spans": [
+                    {
+                        "start": 531,
+                        "end": 543,
+                        "text": "(Bull, 2003)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 912,
+                        "end": 933,
+                        "text": "(Waddle et al., 2019)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "However, the remaining four equivocation categories are interesting in the context of the distinction between overt and covert forms of equivocation drawn by Clayman and Heritage (2002) . Notably, all these four categories (ignores the question, states or implies she has already answered question, acknowledges the question and gives non-specific response to a specific question) can be regarded as covert, as argued below.",
+                "cite_spans": [
+                    {
+                        "start": 158,
+                        "end": 185,
+                        "text": "Clayman and Heritage (2002)",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Two of these categories (acknowledging the question without answering it and ignores the question) can be usefully understood in relation to one other. In the former, the politician acknowledges that a question has been asked, but does not answer, whereas in the latter, the politician not only makes no attempt to give an answer, but does not even acknowledge that a question has been asked. An example of acknowledging the question without answering can be seen in the following question regarding universal credit (Hansard HC Deb, 2 November 2016, col. 880-881). Universal credit is a social security benefit introduced in 2013 to replace six means-tested benefits and tax credits with one overall payment. It was intended to make claiming simpler, but also intended to ensure that no-one would be better off claiming benefits than working. In this example, May acknowledges the question ('On the point that the right honourable Gentleman raised in relation to universal credit . . .. '), but does not give an answer-she neither affirms nor denies whether people will be worse off after cuts to universal credit.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Corbyn: Is it not the case that her cuts to universal credit will leave millions worse off? May: On the point that the right hon. Gentleman raised in relation to universal credit, the introduction of universal credit was an important reform that was brought about in our welfare system. It is a simpler system, so people can see much more easily where they stand in relation to benefits. Crucially, the point about universal credit is making sure that work always pays. As people work more, they earn more. It is right that we do not want to see people just being written off to a life on benefits and that we are encouraging people to get into the workplace.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "The above extract can be contrasted with the following example of ignoring the question (HC Deb, 20 July 2016, col. 818), in which Jeremy Corbyn challenged Theresa May about the appointment of her new Foreign Secretary, Boris Johnson. In an article in The Daily Telegraph (10 January 2002), Johnson had referred to Commonwealth members on the African continent as 'flag-waving piccaninnies'. More recently, in an article for The Sun newspaper (22 April 2016), Johnson had questioned the motives US President Obama on the grounds of his part-Kenyan heritage. Notably, in response to this question, May concerned herself only with her previous remarks about racial discrimination in the criminal justice system, but totally ignored the actual question concerning the appointment of Johnson as Foreign Secretary, as can be seen below:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Corbyn: The Prime Minister is rightly concerned that: 'If you're black, you're treated more harshly . . . than if you're white.' Before appointing her new Foreign Secretary, did she discuss with him his description of black people as 'piccaninnies' and ask why he had questioned the motives of US President Obama on the basis of his 'part-Kenyan' heritage? May: The right honourable Gentleman referred to the remarks I made. It is correct that if you are black, you will be treated more harshly in the criminal justice system. That is exactly why, as Home Secretary, I dealt with the issue of stop and search I was concerned to make sure that nobody should be stopped and searched on the streets of this country because of the colour of their skin. I did that as a Conservative in 13 years, Labour did nothing on it.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Both these forms of equivocation may be seen as covert. In acknowledging the question, Theresa May may give the misleading impression that an answer will be forthcoming. In ignoring the question, May does not even acknowledge that a question has been asked. Furthermore, in stating or implying that she has already answered the question, May conceals the fact that the question has not been answered. In giving a non-specific response to a specific question, it has been argued above that May is modifying the question, and then answering her own version of it. This is perhaps the most covert of all four techniques, because thereby May seemingly gives the impression of answering the question, but not to the question that has actually been posed. Thus, all four of the techniques of equivocation listed above may be regarded as covert.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "It was previously noted with regard to Allen et al.'s (2014) study of public attitudes that in PMQs many of the respondents were infuriated by a perceived failure to answer a 'straight question', combined with scoring party political points. Indeed, there were respondents who described the whole the process as 'pointless', a 'waste of time' and an exercise in 'futility'. The results of the analysis reported here confirm these public perceptions. In 23 sessions of PMQs, not only did May answer on average only 11% of the questions from the LO, but also used a variety of covert techniques to equivocate, thereby failing to maintain any semblance of dialogue with her opposite number. Thus, the study provides ample empirical evidence to substantiate public perceptions and their gross dissatisfaction with the dialogue (or lack of it) in PMQs.",
+                "cite_spans": [
+                    {
+                        "start": 39,
+                        "end": 60,
+                        "text": "Allen et al.'s (2014)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "From a wider perspective, equivocation is politically important if it infuriates the public, and potentially turns them off politics, when voter apathy and poor electoral turnouts are recognised as serious problems for an effectively functioning democratic system. Equivocation is also important because of its potential to undermine political accountability, if at this showpiece parliamentary event the PM persistently avoids answering questions from the LO. Of course, in this respect it is also important to consider the quality of questioning. Notably, the LO is permitted to ask up to six questions at each session of PMQs, thereby equivocation by the PM can be followed up in subsequent questions, which of course is not possible for other MPs, who are permitted only one question. How successfully this is accomplished is of course another issue. This would certainly merit future investigation, with a particular focus on how the LO follows up equivocation from the PM, and on the relative effectiveness of different types of followup. More broadly, the identification of different forms of equivocation through the typology reviewed above may provide useful cues to posing more challenging and penetrating questions in PMQs-thereby to improve its political accountability, and hence to provide more effective parliamentary scrutiny.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Parliamentary Affairs Downloaded from https://academic.oup.com/pa/advance-article-abstract/doi/10.1093/pa/gsz003/5307955 by Washington University School of Medicine Library user on 05 March 2019",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/pa/advance-article-abstract/doi/10.1093/pa/gsz003/5307955 by Washington University School of Medicine Library user on 05 March 2019",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Parliamentary AffairsDownloaded from https://academic.oup.com/pa/advance-article-abstract/doi/10.1093/pa/gsz003/5307955 by Washington University School of Medicine Library user on 05 March 2019",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "The authors would like to thank Maurice Waddle for commenting on an earlier version of this article.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgements",
+                "sec_num": null
+            },
+            {
+                "text": "The author has no conflicts of interest to report.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conflict of Interest",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Tuned In or Turned Off? Public Attitudes to Prime Minister's Questions",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Allen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Fox",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Geis-King",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Gibbons",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Korris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Pavlova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Raftery",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Allen, B., Fox, R., Geis-King, I., Gibbons, V., Korris, M., Pavlova, P. and Raftery, M. (2014) Tuned In or Turned Off? Public Attitudes to Prime Minister's Questions, London, Hansard Society.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Questions to the Prime Minister: A Comparative Study of PMQs from Thatcher to Cameron",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Bates",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Kerr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Byrne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Stanley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Parliamentary Affairs",
+                "volume": "67",
+                "issue": "",
+                "pages": "253--280",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bates, S. R., Kerr, P., Byrne, C. and Stanley, L. (2014) 'Questions to the Prime Minister: A Comparative Study of PMQs from Thatcher to Cameron', Parliamentary Affairs, 67, 253-280.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Speech to the Centre for Parliamentary Studies",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Bercow",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bercow, J. (2010) 'Speech to the Centre for Parliamentary Studies', accessed at http:// www.parliament.uk/business/commons/the-speaker/speeches/speeches/speech-to-the- centre-for-parliamentary-studies/ on 7 May 2018.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "A Journey",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Blair",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Blair, T. (2010) A Journey, London, Hutchinson.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Universals in Language Usage: Politeness Phenomena",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Levinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "Questions and Politeness",
+                "volume": "",
+                "issue": "",
+                "pages": "56--310",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brown, P. and Levinson, S. C. (1978) 'Universals in Language Usage: Politeness Phenomena'. In Goody, E. (ed.) Questions and Politeness, Cambridge, Cambridge University Press, pp. 56-310.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Politeness: Some Universals in Language Use",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Levinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brown, P. and Levinson, S. C. (1987) Politeness: Some Universals in Language Use, Cambridge, Cambridge University Press.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "On Identifying Questions, Replies, and Non-replies in Political Interviews",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Journal of Language and Social Psychology",
+                "volume": "13",
+                "issue": "",
+                "pages": "115--131",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. (1994) 'On Identifying Questions, Replies, and Non-replies in Political Interviews', Journal of Language and Social Psychology, 13, 115-131.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Queen of Hearts or Queen of the Arts of Implication? Implicit Criticisms and Their Implications for Equivocation Theory in the Interview between Martin Bashir and Diana, Princess of Wales",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Social Psychological Review",
+                "volume": "1",
+                "issue": "",
+                "pages": "27--36",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. (1997) 'Queen of Hearts or Queen of the Arts of Implication? Implicit Criticisms and Their Implications for Equivocation Theory in the Interview between Martin Bashir and Diana, Princess of Wales', Social Psychological Review, 1, 27-36.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Equivocation and the Rhetoric of Modernisation: An Analysis of Televised Interviews with Tony Blair in the 1997 British General Election",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Journal of Language and Social Psychology",
+                "volume": "19",
+                "issue": "",
+                "pages": "222--247",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. (2000) 'Equivocation and the Rhetoric of Modernisation: An Analysis of Televised Interviews with Tony Blair in the 1997 British General Election', Journal of Language and Social Psychology, 19, 222-247.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "The Microanalysis of Political Communication: Claptrap and Ambiguity",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. (2003) The Microanalysis of Political Communication: Claptrap and Ambiguity, London, Psychology Press.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Techniques of Political Interview Analysis",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Discourse and Politics",
+                "volume": "",
+                "issue": "",
+                "pages": "215--228",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. (2009) 'Techniques of Political Interview Analysis'. In A \u00b4lvarez-Benito, G., Ferna \u00b4ndez-D\u0131 \u00b4az, G. and I \u00b4\u00f1igo-Mora. I.. (eds) Discourse and Politics, Newcastle upon Tyne, Cambridge Scholars Publishing, pp. 215-228.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Theresa May has a Very Special Technique for Avoiding Questions",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. (2016) 'Theresa May has a Very Special Technique for Avoiding Questions', The Conversation. accessed at https://theconversation.com/theresa-may-has-a-very-special- technique-for-avoiding-questions-67424 on 7 May 2018.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Who Dodges More Questions, Theresa May or Jeremy Corbyn? The Verdict is In",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "The Conversation",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. (2017) 'Who Dodges More Questions, Theresa May or Jeremy Corbyn? The Verdict is In', The Conversation, accessed at https://theconversation.com/who-dodges- more-questions-theresa-may-or-jeremy-corbyn-the-verdict-is-in-78955 on 7 May 2018.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "How Not to Answer Questions in Political Interviews",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Mayer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Political Psychology",
+                "volume": "14",
+                "issue": "",
+                "pages": "651--666",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. and Mayer, K. (1993) 'How Not to Answer Questions in Political Interviews', Political Psychology, 14, 651-666.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Let Me Now Answer, very Directly, Marie's Question\": The Impact of Quoting Members of the Public in Prime Minister's Questions",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Waddle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Journal of Language Aggression and Conflict. Manuscript under Review",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. and Waddle, M. (2018) 'Let Me Now Answer, very Directly, Marie's Question\": The Impact of Quoting Members of the Public in Prime Minister's Questions', Journal of Language Aggression and Conflict. Manuscript under Review.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Adversarial Discourse in Prime Minister's Questions",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Wells",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Journal of Language and Social Psychology",
+                "volume": "31",
+                "issue": "",
+                "pages": "30--48",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, P. and Wells, P. (2012) 'Adversarial Discourse in Prime Minister's Questions', Journal of Language and Social Psychology, 31, 30-48.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Evasion Strategies Used in Turkish Political Discourse",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cakir",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Kaya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kara",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "The Journal of International Social Research",
+                "volume": "46",
+                "issue": "",
+                "pages": "958--964",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cakir, S., Kaya, E. K., and Kara, A. (2016) 'Evasion Strategies Used in Turkish Political Discourse', The Journal of International Social Research, 46, 958-964.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Answers and Evasions",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Clayman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Language in Society",
+                "volume": "30",
+                "issue": "",
+                "pages": "403--442",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Clayman, S. (2001) 'Answers and Evasions', Language in Society, 30, 403-442.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "The News Interview",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Clayman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Heritage",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Clayman, S. and Heritage, J. (2002) The News Interview, New York, Cambridge University Press.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "A Coefficient of Agreement for Nominal Scales",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Cohen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1960,
+                "venue": "Educational and Psychological Measurement",
+                "volume": "20",
+                "issue": "",
+                "pages": "37--46",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cohen, J. (1960) 'A Coefficient of Agreement for Nominal Scales', Educational and Psychological Measurement, 20, 37-46.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Towards an Anatomy of Impoliteness",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Culpeper",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Journal of Pragmatics",
+                "volume": "25",
+                "issue": "",
+                "pages": "349--367",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Culpeper, J. (1996) 'Towards an Anatomy of Impoliteness', Journal of Pragmatics, 25, 349-367.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "PMQs: That's the Way to Do It!",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Gimson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "British Journalism Review",
+                "volume": "23",
+                "issue": "",
+                "pages": "11--13",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gimson, A. (2012) 'PMQs: That's the Way to Do It!', British Journalism Review, 23, 11-13.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Where the Action Is",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Goffman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "Interaction Ritual: Essays on Face to Face Behaviour by Erving Goffman",
+                "volume": "",
+                "issue": "",
+                "pages": "149--270",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goffman, E. (1967) 'Where the Action Is'. In: Goffman, E. (ed) Interaction Ritual: Essays on Face to Face Behaviour by Erving Goffman, Chicago, Aldine, pp. 149-270.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Hansard (House of Commons Daily Debates)",
+                "authors": [],
+                "year": 2018,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "'Hansard (House of Commons Daily Debates)', accessed at http://www.publications.par liament.uk/pa/cm/cmhansrd.htm on 7 May 2018.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Evasive Action: How Politicians Respond to Questions in Political Interviews",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Harris",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Broadcast Talk",
+                "volume": "",
+                "issue": "",
+                "pages": "76--99",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Harris, S. (1991) 'Evasive Action: How Politicians Respond to Questions in Political Interviews'. In Scannell P. (ed.) Broadcast Talk, London, Sage, pp. 76-99.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Being Politically Impolite: Extending Politeness Theory to Adversarial Political Discourse",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Harris",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Discourse & Society",
+                "volume": "12",
+                "issue": "",
+                "pages": "451--472",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Harris, S. (2001) 'Being Politically Impolite: Extending Politeness Theory to Adversarial Political Discourse', Discourse & Society, 12, 451-472.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Some Traditions and Customs of the House (Factsheet G7, General Series)",
+                "authors": [],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "House of Commons Information Office (2010), 'Some Traditions and Customs of the House (Factsheet G7, General Series)', accessed at http://www.parliament.uk/docu ments/commons-information-office/g07.pdf on 7 May 2018.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "News Interviews: A Pragmalinguistic Analysis",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Jucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jucker, A. H. (1986) News Interviews: A Pragmalinguistic Analysis, Amsterdam, John Benjamins.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Parliamentary Practice, 23rd edn",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "May",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "May, T. E. (2004) Parliamentary Practice, 23rd edn, London, LexisNexis, accessed at https://www.parliament.uk.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "A Comprehensive Grammar of the English Language",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Quirk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Greenbaum",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Leech",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Svartvik",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Quirk, R., Greenbaum, S., Leech, G., and Svartvik, J. (1985) A Comprehensive Grammar of the English Language, London, Longman.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "A Framework for the Systematic Analysis of Evasion in Parliamentary Discourse",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Rasiah",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Journal of Pragmatics",
+                "volume": "42",
+                "issue": "",
+                "pages": "664--680",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rasiah, P. (2010) 'A Framework for the Systematic Analysis of Evasion in Parliamentary Discourse', Journal of Pragmatics, 42, 664-680.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "The Secret Constitution",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Sedgemore",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sedgemore, B. (1980) The Secret Constitution, London, Hodder & Stoughton.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "The Downing Street Years, London, HarperCollins. The Guardian (2010, 14 October) 'Editorial: In Praise of Prime Minister's Questions",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Thatcher",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thatcher, M. (1993) The Downing Street Years, London, HarperCollins. The Guardian (2010, 14 October) 'Editorial: In Praise of Prime Minister's Questions'. London, Guardian Media Group.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Boris Johnson: UK and America Can Be Better Friends Than Ever Mr Obama . . . if we LEAVE the EU",
+                "authors": [],
+                "year": 2016,
+                "venue": "The Sun",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "The Sun (2016, 22 April) 'Boris Johnson: UK and America Can Be Better Friends Than Ever Mr Obama . . . if we LEAVE the EU'. London, News UK.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Boris Johnson: If Blair's So Good at Running the Congo, Let Him Stay There",
+                "authors": [],
+                "year": 2002,
+                "venue": "The Daily Telegraph",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "The Daily Telegraph (2002, 10 January) 'Boris Johnson: If Blair's So Good at Running the Congo, Let Him Stay There'. London, Telegraph Media Group.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "United Kingdom: The Prime Minister and Parliament",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Thomas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Leadership and Legislative Assemblies",
+                "volume": "",
+                "issue": "",
+                "pages": "4--37",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thomas, G. P. (2006) 'United Kingdom: The Prime Minister and Parliament'. In Baldwin, N. D. J. (ed) Executive Leadership and Legislative Assemblies, London, Routledge, pp. 4-37.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Playing the Man, not the Ball: Personalisation in Political Interviews",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Waddle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Journal of Language and Social Psychology",
+                "volume": "35",
+                "issue": "",
+                "pages": "412--434",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Waddle, M. and Bull, P. (2016) 'Playing the Man, not the Ball: Personalisation in Political Interviews', Journal of Language and Social Psychology, 35, 412-434.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "'You're Important, Jeremy, but Not That Important\": Personalised Responses and Equivocation in Political Interviews",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Waddle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Journal of Social and Political Psychology. Manuscript under Review",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Waddle, M. and Bull, P. (2018) \"'You're Important, Jeremy, but Not That Important\": Personalised Responses and Equivocation in Political Interviews', Journal of Social and Political Psychology. Manuscript under Review.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "He Is Just The Nowhere Man of British Politics\": Personal attacks in Prime Minister's Questions",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Waddle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bull",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Bo \u00a8hnke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Journal of Language and Social Psychology",
+                "volume": "38",
+                "issue": "",
+                "pages": "61--85",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Waddle, M., Bull, P., and Bo \u00a8hnke, J. R. (2019) '\"He Is Just The Nowhere Man of British Politics\": Personal attacks in Prime Minister's Questions', Journal of Language and Social Psychology, 38, 61-85.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Cross-cultural Pragmatic Analysis of Evasion Strategy at Chinese and American Regular Press Conferences -with Special Reference to the North Korean Nuclear Issue",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Weilin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Xiaoying",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Intercultural Forum",
+                "volume": "1",
+                "issue": "2",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Weilin, D. and Xiaoying, Z. (2008) 'Cross-cultural Pragmatic Analysis of Evasion Strategy at Chinese and American Regular Press Conferences -with Special Reference to the North Korean Nuclear Issue', Intercultural Forum, 1(2), accessed at https://www.revis tas.usp.br/caligrama/article/viewFile/65490/68106 on 22 June 2018.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "TABREF1": {
+                "num": null,
+                "text": "Question typology Questions utilising interrogative syntax 1. Yes-no or polar. Expects affirmation or negation. 2. Alternative questions or disjunctive. Expects as the reply one of two or more options presented in the question. 3. Question word. Typically expects a reply from an open range of replies, and begin with a question word (what, when, why, who, which, where, how). Questions utilising non-interrogative syntax 4. Declarative. Comparable to declarative statements, but typically accompanied by final rising question intonation. 5. Moodless. No finite verb. 6. Indirect. Pose a question through reporting that of another.",
+                "content": "<table/>",
+                "html": null,
+                "type_str": "table"
+            },
+            "TABREF2": {
+                "num": null,
+                "text": "Response typology1. Explicit reply. The politician gives a full answer to the question. 2. Non-reply. The politician completely fails to answer the question. Partial reply. Politician answers only one part of a single-barrelled question.3.3 Interrupted response. It is not possible to say whether the politician would have replied to the question or not because of an interruption by the interviewer",
+                "content": "<table><tr><td>3. Intermediate responses.</td></tr><tr><td>3.1 Answer by implication. The politician makes his/her views clear but without explicitly</td></tr><tr><td>stating them.</td></tr><tr><td>3.2 Incomplete response</td></tr><tr><td>3.3.1. Half-answer. If the interviewer is in effect asking two questions (a double-</td></tr><tr><td>barrelled question), and the politician only answers one of the questions.</td></tr><tr><td>3.3.2 Fractional reply. The politician answers only one part of a multi-barrelled</td></tr><tr><td>question.</td></tr><tr><td>3.3.3</td></tr></table>",
+                "html": null,
+                "type_str": "table"
+            },
+            "TABREF3": {
+                "num": null,
+                "text": "Superordinate categories of equivocation typology",
+                "content": "<table/>",
+                "html": null,
+                "type_str": "table"
+            },
+            "TABREF4": {
+                "num": null,
+                "text": "Equivocation profile for Theresa May All figures represent a percentage of the total number of equivocal responses for each speaker, for example, 92% of Theresa May's equivocations contain political points. Columns add to more than 100%, because categories are not mutually exclusive.",
+                "content": "<table><tr><td>1. Ignores the question</td></tr></table>",
+                "html": null,
+                "type_str": "table"
+            }
+        }
+    }
+}
