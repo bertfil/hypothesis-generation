@@ -1,0 +1,316 @@
+task_name: clarity
+
+train_data_path: ./clarity_train.json
+val_data_path: ./clarity_val.json
+test_data_path: ./clarity_test.json
+
+prompt_templates:
+  observations:
+    multi_content: |
+      Question: ${question}
+      Answer: ${answer}
+      Observation: The label assigned to that answer is: ${label}
+
+  adaptive_info_prompt:
+    multi_content: |
+      Hypothesis ${idx}: ${hypothesis_text}
+      ${observations}
+    
+  few_shot_prefix: |
+    Here are some previous examples of clarity assessments.
+
+  relevant_papers:
+    multi_content: |
+      Title: ${title}
+      Key Findings: ${summary}
+  
+  summarize_paper:
+    system: |-
+      You are a helpful assistant for summarizing key findings in research papers on a given topic.
+    user: |-
+      Summarize the following research paper, focusing ONLY on how it defines and distinguishes different types of answer clarity.
+      
+      Specifically, look for definitions or characteristics of these categories:
+      1. Clear Reply (Explicit)
+      2. Ambivalent (Implicit, General, Partial, Dodging, Deflection)
+      3. Clear Non-Reply (Declining to answer, Claims ignorance, Clarification)
+
+      Focus on hypotheses of what characterizes the linguistic and logic-based definitions of these labels, do not include technical details in the paper. 
+      Title: ${title}
+      Text: 
+      ${paper_text}
+
+  initialize_with_paper_only:
+    system: |-
+      You are an expert linguist specializing in political discourse.
+      Your task is to generate hypotheses to classify answers into 3 Clarity Levels.
+      
+      To do this effectively, you must understand the definitions of these 3 levels based on the specific taxonomy below:
+      
+      1. CLEAR REPLY
+         (Includes: Explicit/Direct answers)
+      
+      2. AMBIVALENT (The answer is provided but is evasive or vague)
+         (Includes: Implicit, General, Partial, Dodging, or Deflection)
+      
+      3. CLEAR NON-REPLY (Explicit refusal or inability to answer)
+         (Includes: Declining to answer, Claims ignorance, Request for clarification)
+
+      You will be given literature summaries.
+      Based on the literature, generate hypotheses that explain the linguistic patterns that distinguish a Clear Reply, Ambivalent, or Clear Non-Reply.
+      
+      Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
+
+    user: |-
+      Here are some key findings from a series of research papers that might be useful for generating hypotheses:
+      ${relevant_papers}
+
+      Please generate hypotheses that help determine which of the 3 Clarity Labels applies to an answer.
+      Please propose ${num_hypotheses} possible hypotheses.
+
+      Generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis]. 
+
+      Proposed hypotheses:
+
+
+  initialize_zero_shot:
+    system: |-
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Your task is to generate scientific hypotheses that determine the Clarity Level of a response.
+      
+      The Clarity Level has three specific classes:
+      
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
+      
+      Based on your knowledge, what linguistic patterns, discourse markers, or logical structures characterize each of these three classes?
+      
+      Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
+      
+    user: |-
+      Please generate hypotheses that can help determine whether an answer is a Clear Reply, Ambivalent, or Clear Non-Reply.
+      Please propose ${num_hypotheses} possible hypotheses.
+
+      Generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis]. 
+
+      Proposed hypotheses:
+  
+  refine_with_data:
+    system: |-
+      You are an expert linguist. You are refining rules for classifying the clarity of answers.
+      You will be given examples of Question-Answer pairs and their assigned Clarity Label:
+      - Clear Reply
+      - Ambivalent
+      - Clear Non-Reply
+      
+      Based on the observations, refine the previous hypotheses to better explain *why* a specific label was assigned.
+      For example, if an answer looks relevant but is labeled "Ambivalent", hypothesize what specific linguistic feature (e.g., addressing only half the question, shifting the subject) caused that label.
+      
+      Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
+
+    user: |-
+      Here are the Observations:
+      ${observations}
+
+      And here are the previous hypotheses:
+      ${hypotheses}
+
+      Please generate refined hypotheses that improve classification accuracy for the 3 clarity levels.
+      Please propose ${num_hypotheses} refined hypotheses.
+
+      Generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis]. 
+
+      Refined hypotheses:
+
+  refine_with_literature:
+    system: |-
+      You are an expert linguist.
+      You will be given literature findings regarding evasion techniques (like Dodging, Deflection, Implicit answers).
+
+      Your goal is to use this literature to refine your hypotheses for the 3 Clarity Levels.
+      For example:
+      - Literature might say "Deflection shifts topic." -> Hypothesis: "If an answer shifts the topic, it is an Ambivalent."
+      - Literature might say "Declining is a refusal." -> Hypothesis: "If an answer explicitly refuses to provide info, it is a Clear Non-Reply."
+      
+      Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
+
+    user: |-
+      Here are some key findings from a series of research papers that might be useful for generating hypotheses:
+      ${relevant_papers}
+
+      And here are the previous hypotheses:
+      ${hypotheses}
+
+      Please generate refined hypotheses regarding the 3 Clarity Levels.
+      Please propose ${num_hypotheses} refined hypotheses.
+
+      Generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis]. 
+
+      Refined hypotheses:
+
+
+  batched_generation:
+    system: |-
+      You are an expert linguist.
+      You will be given a set of Question-Answer pairs and their Clarity Labels (Clear Reply, Ambivalent, Clear Non-Reply).
+      Based on the observations, generate hypotheses that explain the rules for assigning these labels.
+      Identify patterns in syntax, semantics, and discourse logic.
+      
+      Please propose ${num_hypotheses} possible hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
+
+    user: |-
+      Here are the Observations:
+      ${observations}
+
+      Please generate hypotheses that can help determine the clarity label.
+      Please propose ${num_hypotheses} possible hypotheses.
+
+      Generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis]. 
+
+      Proposed hypotheses:
+
+  IO_refine_with_feedback:
+    system: |-
+      
+    user: |-
+      Applying your rule to the following inputs does not produce the expected outputs.
+      Here's your proposed hypothesis: ${hypothesis_text}
+      Below are some examples that you predicted wrong using the hypothesis.
+      ${observations}
+      Please generate new hypotheses that map the given inputs to their corresponding outputs (Clear Reply, Ambivalent, Clear Non-Reply).
+      Propose ${num_hypotheses} possible hypotheses. Generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
+      
+  batched_generation_with_paper:
+    system: |-
+      You are an expert linguist.
+      You will be given Observations (Q, A, Label) and Literature Findings.
+      The Labels belong to the taxonomy: Clear Reply, Ambivalent, Clear Non-Reply.
+      
+      Based on both, generate hypotheses that explain the assignment of these labels.
+      Please propose ${num_hypotheses} possible hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
+
+    user: |-
+      Here are the Observations:
+      ${observations}
+
+      Here are some key findings from a series of research papers that might be useful for generating hypotheses:
+      ${relevant_papers}
+
+      Please generate hypotheses that can help determine the clarity label.
+      Please propose ${num_hypotheses} possible hypotheses.
+
+      Generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis]. 
+
+      Proposed hypotheses:
+
+  initialize_hypotheses_only_paper:
+    system: |-
+      You are an expert linguist specializing in political equivocation and clarity.
+      You will be given literature findings regarding answer clarity.
+      Based on the literature, generate hypotheses that define the boundaries between:
+      1. Clear Reply
+      2. Ambivalent
+      3. Clear Non-Reply
+      
+      Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
+      
+    user: |-
+      Here are key findings from research papers:
+      ${relevant_papers}
+
+      Please generate hypotheses that can help determine the clarity label.
+      Please propose ${num_hypotheses} possible hypotheses.
+
+      Generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis]. 
+
+      Proposed hypotheses:
+
+  few_shot_baseline:
+    system: |-
+      You are an expert linguist. You will be given a Question and an Answer.
+      Determine the specific clarity label for the Answer from the following list:
+      [Clear Reply, Ambivalent, Clear Non-Reply]
+      
+      Give your final answer in the format of "Final answer: [label]". 
+
+    user: |-
+      ${few_shot_prefix}${observations}
+      Determine the clarity label for the following:
+      Question: ${question}
+      Answer: ${answer}
+      Give your final answer in the following format:
+      "Final answer: [label]"
+
+  boost_specificity:
+    system: |-
+      You are an expert linguist.
+      From past experiences, you learned a hypothesis for determining the clarity label (Clear Reply, Ambivalent, Clear Non-Reply).
+      Now you need to refine the hypothesis.
+      Make the hypothesis more specific by analyzing *why* an answer falls into that category (e.g., identifying specific evasion techniques like deflection or generalities that make it Ambivalent).
+      
+      Generate the refined hypothesis in the format of 1. [hypothesis].
+    user: |-
+      This is the hypothesis to be refined:
+      ${hypotheses}
+      Please refine the hypothesis by rephrasing the pattern or adding examples to it so it can be more specific.
+      Generate the refined hypothesis in the format of 1. [hypothesis].
+      Refined hypothesis:
+
+  inference:
+    system: |-
+      You are an expert linguist.
+      Given a Question and an Answer, you are asked to determine the clarity label.
+      Possible labels: Clear Reply, Ambivalent, Clear Non-Reply.
+      
+      Apply the Learned Pattern below to determine the label.
+      Please give your final answer in the format of {Final answer: [label]}
+
+    user: |-
+      Learned pattern: ${hypothesis}
+      Given the pattern you learned above, determine the label for the following:
+      Question: ${question}
+      Answer: ${answer}
+
+      Only answer if the pattern above can be applied.
+      Think step by step.
+      Step 1: Think about whether the pattern can be applied to this Q&A pair.
+      Step 2: Analyze the relationship between Question and Answer.
+      Step 3: Based on the pattern, what is the label?
+
+  multiple_hypotheses_inference:
+    system: |-
+      You are an expert linguist.
+      Given a Question and an Answer, you are asked to determine the clarity label.
+      Possible labels: Clear Reply, Ambivalent, Clear Non-Reply.
+      
+      Apply the Learned Patterns below.
+      Please give your final answer in the format of {Final answer: [label]}
+    user: |-
+      Our learned patterns: ${hypotheses}                          
+      Given the patterns you learned above, determine the label for the following:
+      Question: ${question}
+      Answer: ${answer}
+
+      Think step by step.
+      Step 1: Think about which learned patterns can be applied to the Q&A pair.
+      Step 2: Analyze the relationship between Question and Answer.
+      Step 3: Based on the patterns, what is the label?
+      You MUST give your final answer in the following format:
+      Final answer: [label]
+
+  check_hypothesis_pair_repetition:
+    system: |-
+      You are an expert linguist.
+      You need to determine if two hypotheses regarding text clarity are repetitive.
+      Answer "yes" if they describe the same linguistic rule or logic for the same label.
+      Answer "no" if they describe different rules or apply to different labels.
+      Keep your answer short.
+      Give your final answer in the format of "Final answer: [answer]".
+    user: |-
+      We have two hypotheses that need you to determine if they are repetitive:
+      ${hypotheses}
+      
+      Give a short explanation of your decision.
+      Then give your final answer in the format of " [answer]".
+      Your answer:
