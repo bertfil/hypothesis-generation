@@ -16,7 +16,7 @@ import numpy as np
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from hypogenic.extract_label import extract_label_register, persuasive_pairs_extract_label, dreaddit_extract_label
+from hypogenic.extract_label import extract_label_register, persuasive_pairs_extract_label, clarity_extract_label
 
 from hypogenic.tasks import BaseTask
 from hypogenic.prompt import BasePrompt
@@ -65,7 +65,7 @@ def main():
     # model_name = "meta-llama/Meta-Llama-3.1-70B-Instruct"
 
     test_ood = False # set to True if testing on OOD data
-    use_valid = False # set to True if testing with validation set
+    use_valid = True # set to True if testing with validation set
     use_refine = True # set to True if using HypoRefine, or False for HypoGeniC
 
     if test_ood:
@@ -74,10 +74,10 @@ def main():
         config_version = ""
 
     task_config_path = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), f"data/dreaddit/config{config_version}.yaml"
+        os.path.dirname(os.path.dirname(__file__)), f"data/clarity/config{config_version}.yaml"
     )
     papers_dir_path = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), "literature/dreaddit/processed"
+        os.path.dirname(os.path.dirname(__file__)), "literature/clarity/processed"
     )
 
     if model_name == "meta-llama/Meta-Llama-3.1-70B-Instruct":
@@ -85,9 +85,9 @@ def main():
     max_num_hypotheses = 20
     max_refine = 6 # round of refinement for HypoRefine
     num_init = 10
-    num_train = 200
-    num_test = 500
-    num_val = 300
+    num_train = 500 # max num of train data = 2,930
+    num_test = 300 # max num of test data = 308
+    num_val = 300 # max num of val data = 518
     k = 10
     alpha = 5e-1
     update_batch_size = 10
@@ -100,7 +100,7 @@ def main():
     max_tokens = 4000
     max_concurrent = 32
     seeds = [42]
-    task_name = "dreaddit" # used for dirname for storing and loading paper summaries, any name is fine
+    task_name = "clarity" # used for dirname for storing and loading paper summaries, any name is fine
     prioritize = "balanced" # merging strategy for Union methods
     n_paper_specificity_boost = 0 # n_round of specificity boost
 
@@ -109,7 +109,7 @@ def main():
     else:
         api = LocalVllmWrapper(model_name, model_path, gpu_memory_utilization=0.95)
     task = BaseTask(
-        task_config_path, extract_label=dreaddit_extract_label
+        task_config_path, extract_label=clarity_extract_label
     )
 
     accuracy_all = []
