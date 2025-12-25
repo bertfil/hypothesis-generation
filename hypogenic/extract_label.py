@@ -23,6 +23,28 @@ def default_extract_label(text):
         logger.warning(f"Could not extract label from text: {text}")
         return "other"
 
+@extract_label_register.register("clarity")
+def clarity_extract_label(text):
+    logger = LoggerConfig.get_logger("extract_label")
+    if text is None:
+        logger.warning(f"Could not extract label from text: {text}")
+        return "other"
+
+    text_lower = text.lower()
+    
+    pattern = r"final answer:\s*([^\.\n]*)"
+    matches = re.findall(pattern, text_lower)
+    content_to_search = matches[-1] if matches else text_lower
+
+    if "clear non-reply" in content_to_search or "clear non reply" in content_to_search:
+        return "Clear Non-Reply"
+    elif "ambivalent" in content_to_search:
+        return "Ambivalent"
+    elif "clear reply" in content_to_search:
+        return "Clear Reply"
+    logger.warning(f"Could not extract recognized clarity label from: {text}")
+    return "other"
+
 @extract_label_register.register("aigc_detect")
 def aigc_detect_extract_label(text):
     logger = LoggerConfig.get_logger("extract_label")
