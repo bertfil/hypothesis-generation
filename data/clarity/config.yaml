@@ -30,10 +30,10 @@ prompt_templates:
     user: |-
       Summarize the following research paper, focusing ONLY on how it defines and distinguishes different types of answer clarity.
       
-      Specifically, look for definitions or characteristics of these categories:
-      1. Clear Reply (Explicit)
-      2. Ambivalent (Implicit, General, Partial, Dodging, Deflection)
-      3. Clear Non-Reply (Declining to answer, Claims ignorance, Clarification)
+      Specifically, look for definitions or characteristics of the clarity level of an answer to a question, which can be classified into three categories:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
 
       Focus on hypotheses of what characterizes the linguistic and logic-based definitions of these labels, do not include technical details in the paper. 
       Title: ${title}
@@ -42,23 +42,18 @@ prompt_templates:
 
   initialize_with_paper_only:
     system: |-
-      You are an expert linguist specializing in political discourse.
-      Your task is to generate hypotheses to classify answers into 3 Clarity Levels.
-      
-      To do this effectively, you must understand the definitions of these 3 levels based on the specific taxonomy below:
-      
-      1. CLEAR REPLY
-         (Includes: Explicit/Direct answers)
-      
-      2. AMBIVALENT (The answer is provided but is evasive or vague)
-         (Includes: Implicit, General, Partial, Dodging, or Deflection)
-      
-      3. CLEAR NON-REPLY (Explicit refusal or inability to answer)
-         (Includes: Declining to answer, Claims ignorance, Request for clarification)
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
 
-      You will be given literature summaries.
-      Based on the literature, generate hypotheses that explain the linguistic patterns that distinguish a Clear Reply, Ambivalent, or Clear Non-Reply.
-      
+      You will be given a set of literature of the format:
+      Title: [title]
+      Key Findings: [summary]
+
+      Based on the literature, please generate hypotheses that are useful for distinguishing a Clear Reply, Ambivalent, or Clear Non-Reply.
       Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
 
     user: |-
@@ -76,16 +71,13 @@ prompt_templates:
   initialize_zero_shot:
     system: |-
       You are an expert linguist specializing in political discourse and pragmatics.
-      Your task is to generate scientific hypotheses that determine the Clarity Level of a response.
-      
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
       The Clarity Level has three specific classes:
-      
       1. Clear Reply: The answer explicitly and fully addresses the question.
       2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
       3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
       
-      Based on your knowledge, what linguistic patterns, discourse markers, or logical structures characterize each of these three classes?
-      
+      Based on your past experiences, please generate hypotheses that are useful for distinguishing a Clear Reply, Ambivalent, or Clear Non-Reply.
       Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
       
     user: |-
@@ -98,15 +90,14 @@ prompt_templates:
   
   refine_with_data:
     system: |-
-      You are an expert linguist. You are refining rules for classifying the clarity of answers.
-      You will be given examples of Question-Answer pairs and their assigned Clarity Label:
-      - Clear Reply
-      - Ambivalent
-      - Clear Non-Reply
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
       
-      Based on the observations, refine the previous hypotheses to better explain *why* a specific label was assigned.
-      For example, if an answer looks relevant but is labeled "Ambivalent", hypothesize what specific linguistic feature (e.g., addressing only half the question, shifting the subject) caused that label.
-      
+      Based on the observations, please generate hypotheses that are useful for distinguishing a Clear Reply, Ambivalent, or Clear Non-Reply.
       Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
 
     user: |-
@@ -125,14 +116,18 @@ prompt_templates:
 
   refine_with_literature:
     system: |-
-      You are an expert linguist.
-      You will be given literature findings regarding evasion techniques (like Dodging, Deflection, Implicit answers).
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
 
-      Your goal is to use this literature to refine your hypotheses for the 3 Clarity Levels.
-      For example:
-      - Literature might say "Deflection shifts topic." -> Hypothesis: "If an answer shifts the topic, it is an Ambivalent."
-      - Literature might say "Declining is a refusal." -> Hypothesis: "If an answer explicitly refuses to provide info, it is a Clear Non-Reply."
-      
+      You will be given a set of literature of the format:
+      Title: [title]
+      Key Findings: [summary]
+
+      Based on the literature, please generate hypotheses that are useful for distinguishing a Clear Reply, Ambivalent, or Clear Non-Reply.
       Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
 
     user: |-
@@ -152,11 +147,19 @@ prompt_templates:
 
   batched_generation:
     system: |-
-      You are an expert linguist.
-      You will be given a set of Question-Answer pairs and their Clarity Labels (Clear Reply, Ambivalent, Clear Non-Reply).
-      Based on the observations, generate hypotheses that explain the rules for assigning these labels.
-      Identify patterns in syntax, semantics, and discourse logic.
-      
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
+      You will be given a set of observations  of the format:
+      Question: [question]
+      Answer: [answer]
+      Observation: [label]
+      The Labels belong to the taxonomy: Clear Reply, Ambivalent, Clear Non-Reply.
+
+      Based on the observations, please generate hypotheses that are useful for distinguishing a Clear Reply, Ambivalent, or Clear Non-Reply.
       Please propose ${num_hypotheses} possible hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
 
     user: |-
@@ -172,7 +175,17 @@ prompt_templates:
 
   IO_refine_with_feedback:
     system: |-
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
+
+      Your goal is to refine your hypotheses for the 3 Clarity Levels.
+      For example, if an answer looks relevant but is labeled "Ambivalent", hypothesize what specific linguistic feature (e.g., addressing only half the question, shifting the subject) caused that label.
       
+      Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
     user: |-
       Applying your rule to the following inputs does not produce the expected outputs.
       Here's your proposed hypothesis: ${hypothesis_text}
@@ -183,11 +196,23 @@ prompt_templates:
       
   batched_generation_with_paper:
     system: |-
-      You are an expert linguist.
-      You will be given Observations (Q, A, Label) and Literature Findings.
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
+
+      You will be given a set of observations and literature of the format:
+      Question: [question]
+      Answer: [answer]
+      Observation: [label]
+      or
+      Title: [title]
+      Key Findings: [summary]
       The Labels belong to the taxonomy: Clear Reply, Ambivalent, Clear Non-Reply.
       
-      Based on both, generate hypotheses that explain the assignment of these labels.
+      Based on the observations and literature, please generate hypotheses that are useful for distinguishing a Clear Reply, Ambivalent, or Clear Non-Reply.
       Please propose ${num_hypotheses} possible hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
 
     user: |-
@@ -206,20 +231,24 @@ prompt_templates:
 
   initialize_hypotheses_only_paper:
     system: |-
-      You are an expert linguist specializing in political equivocation and clarity.
-      You will be given literature findings regarding answer clarity.
-      Based on the literature, generate hypotheses that define the boundaries between:
-      1. Clear Reply
-      2. Ambivalent
-      3. Clear Non-Reply
-      
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
+
+      You will be given a set of literature of the format:
+      Title: [title]
+      Key Findings: [summary]
+      Based on the literature, please generate hypotheses that explain the linguistic patterns that distinguish a Clear Reply, Ambivalent, or Clear Non-Reply.
       Please propose ${num_hypotheses} refined hypotheses and generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis].
       
     user: |-
-      Here are key findings from research papers:
+      Here are some key findings from a series of research papers that might be useful for generating hypotheses:
       ${relevant_papers}
 
-      Please generate hypotheses that can help determine the clarity label.
+      Please generate hypotheses that can help determine the Clarity Level.
       Please propose ${num_hypotheses} possible hypotheses.
 
       Generate them in the format of 1. [hypothesis], 2. [hypothesis], ... ${num_hypotheses}. [hypothesis]. 
@@ -228,9 +257,12 @@ prompt_templates:
 
   few_shot_baseline:
     system: |-
-      You are an expert linguist. You will be given a Question and an Answer.
-      Determine the specific clarity label for the Answer from the following list:
-      [Clear Reply, Ambivalent, Clear Non-Reply]
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
       
       Give your final answer in the format of "Final answer: [label]". 
 
@@ -239,36 +271,45 @@ prompt_templates:
       Determine the clarity label for the following:
       Question: ${question}
       Answer: ${answer}
-      Give your final answer in the following format:
-      "Final answer: [label]"
+      Give your final answer in the format of "Final answer: [answer]".
 
   boost_specificity:
     system: |-
-      You are an expert linguist.
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
+
       From past experiences, you learned a hypothesis for determining the clarity label (Clear Reply, Ambivalent, Clear Non-Reply).
-      Now you need to refine the hypothesis.
+      Now you need to refine the hypothesis by rephrasing the pattern or adding examples to it so it can be more specific and easier to be used.
       Make the hypothesis more specific by analyzing *why* an answer falls into that category (e.g., identifying specific evasion techniques like deflection or generalities that make it Ambivalent).
       
       Generate the refined hypothesis in the format of 1. [hypothesis].
     user: |-
       This is the hypothesis to be refined:
       ${hypotheses}
-      Please refine the hypothesis by rephrasing the pattern or adding examples to it so it can be more specific.
+      Please refine the hypothesis by rephrasing the pattern or adding examples to it so it can be more specific and easier to be used to determine the Clarity Level (Clear Reply, Ambivalent, Clear Non-Reply.
       Generate the refined hypothesis in the format of 1. [hypothesis].
       Refined hypothesis:
 
   inference:
     system: |-
-      You are an expert linguist.
-      Given a Question and an Answer, you are asked to determine the clarity label.
-      Possible labels: Clear Reply, Ambivalent, Clear Non-Reply.
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
       
-      Apply the Learned Pattern below to determine the label.
-      Please give your final answer in the format of {Final answer: [label]}
+      From past experiences, you learned a pattern.
+      Now, at each time, you should apply the learned pattern to a new pair of Question and Answer and determine the Clarity Level of the answer.
+      Please give your final answer in the format of "Final answer: [answer]".
 
     user: |-
       Learned pattern: ${hypothesis}
-      Given the pattern you learned above, determine the label for the following:
+      Given the pattern you learned above, determine the Clarity Level (Clear Reply, Ambivalent, Clear Non-Reply) for the following:
       Question: ${question}
       Answer: ${answer}
 
@@ -277,18 +318,23 @@ prompt_templates:
       Step 1: Think about whether the pattern can be applied to this Q&A pair.
       Step 2: Analyze the relationship between Question and Answer.
       Step 3: Based on the pattern, what is the label?
+      You MUST give your final answer in the format of "Final answer: [answer]".
 
   multiple_hypotheses_inference:
     system: |-
-      You are an expert linguist.
-      Given a Question and an Answer, you are asked to determine the clarity label.
-      Possible labels: Clear Reply, Ambivalent, Clear Non-Reply.
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
       
-      Apply the Learned Patterns below.
+      From past experiences, you learned a pattern.
+      Now, at each time, you should apply the learned pattern to a new pair of Question and Answer and determine the Clarity Level of the answer.
       Please give your final answer in the format of {Final answer: [label]}
     user: |-
       Our learned patterns: ${hypotheses}                          
-      Given the patterns you learned above, determine the label for the following:
+      Given the patterns you learned above, determine the Clarity Level (Clear Reply, Ambivalent, Clear Non-Reply) for the following:
       Question: ${question}
       Answer: ${answer}
 
@@ -296,21 +342,27 @@ prompt_templates:
       Step 1: Think about which learned patterns can be applied to the Q&A pair.
       Step 2: Analyze the relationship between Question and Answer.
       Step 3: Based on the patterns, what is the label?
-      You MUST give your final answer in the following format:
-      Final answer: [label]
+      You MUST give your final answer in the format of "Final answer: [answer]".
 
   check_hypothesis_pair_repetition:
     system: |-
-      You are an expert linguist.
-      You need to determine if two hypotheses regarding text clarity are repetitive.
-      Answer "yes" if they describe the same linguistic rule or logic for the same label.
-      Answer "no" if they describe different rules or apply to different labels.
+      You are an expert linguist specializing in political discourse and pragmatics.
+      Given a Question-Answer pair, you are asked to determine the Clarity Level of the answer.
+      The Clarity Level has three specific classes:
+      1. Clear Reply: The answer explicitly and fully addresses the question.
+      2. Ambivalent: The answer is provided but is evasive, vague, indirect, partial, or shifts the topic.
+      3. Clear Non-Reply: The answerer explicitly refuses to answer, claims ignorance ("I don't know"), or asks for clarification.
+
+      From past experiences, you learned some patterns.
+      You need to determine if the two hypotheses are so similar to the level of "repeating hypotheses".
+      Finally, answer "yes" if the two hypotheses are repetitive and "no" if they are not.
       Keep your answer short.
       Give your final answer in the format of "Final answer: [answer]".
     user: |-
       We have two hypotheses that need you to determine if they are repetitive:
       ${hypotheses}
-      
+      Are these two hypotheses so similar to the level that they are repetitive? If the both of them can provide significantly more information than only one of them could, and the information is important and useful for explaining why the answer is considered to be the clarity label (Clear Reply, Ambivalent, Clear Non-Reply).
+      Note that adding specific examples does not count as "provide significantly more information".
       Give a short explanation of your decision.
-      Then give your final answer in the format of " [answer]".
+      Then give your final answer in the format of "Final answer: [answer]".
       Your answer:
