@@ -61,7 +61,7 @@ def main():
     model_type = "gpt"
     inference_type = "default" # options: default, filter_and_weight, one_step_adaptive, two_step_adaptive
 
-    hypothesis_file = f"./outputs/union/union/clarity/gpt-4o-mini/hyp_20/refine_6/union_prioritize_balanced_refine_6.json""
+    hypothesis_file = f"./outputs/union/union/clarity/gpt-4o-mini/hyp_20/refine_6/union_prioritize_balanced_refine_6.json"
     adaptive_num_hypotheses = 5
     num_train = 200
     num_test = 300
@@ -109,10 +109,8 @@ def main():
             adaptive_num_hypotheses=adaptive_num_hypotheses,
             cache_seed=cache_seed,
             max_concurrent=max_concurrent,
-            generate_kwargs={
-                "max_tokens": max_tokens,
-                "temperature": temperature,
-            },
+            max_tokens=max_tokens,
+            temperature=temperature
         )
 
         results_dict = get_results(pred_list, label_list)
