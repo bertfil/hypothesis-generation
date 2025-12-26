@@ -14,7 +14,7 @@ import numpy as np
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from hypogenic.extract_label import retweet_extract_label, hotel_reviews_extract_label, persuasive_pairs_extract_label, dreaddit_extract_label
+from hypogenic.extract_label import clarity_extract_label
 from hypogenic.tasks import BaseTask
 from hypogenic.prompt import BasePrompt
 from hypogenic.utils import (
@@ -69,7 +69,7 @@ def main():
     else:
         config_version = ""
     task_config_path = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), f"data/dreaddit/config{config_version}.yaml"
+        os.path.dirname(os.path.dirname(__file__)), f"data/clarity/config{config_version}.yaml"
     )
     if model_name ==  "meta-llama/Meta-Llama-3.1-70B-Instruct":
         model_path = "/net/projects/chai-lab/shared_models/Meta-Llama-3.1-70B-Instruct"
@@ -77,8 +77,8 @@ def main():
     max_num_hypotheses = 20
     adaptive_num_hypotheses = 5
     num_train = 200
-    num_test = 640
-    num_val = 640
+    num_test = 300
+    num_val = 300
     use_valid = False
     generation_seed = 42
     seeds = [42]
@@ -90,13 +90,13 @@ def main():
     max_tokens = 4000
     for sample in ['final']:
         # change this file path to test other hypotheses
-        hypothesis_file = "./outputs/union/init_both_multi_refine/dreaddit/gpt-4o-mini/hyp_20/refine_6/hypotheses_training_sample_final_seed_42_epoch_0.json"
+        hypothesis_file = "./outputs/union/union/clarity/gpt-4o-mini/hyp_20/refine_6/union_prioritize_balanced_refine_6.json"
         accuracy_all = []
         f1_all = []
         dict = load_dict(hypothesis_file)
         hyp_bank = {}
 
-        task = BaseTask(task_config_path, extract_label=dreaddit_extract_label)
+        task = BaseTask(task_config_path, extract_label=clarity_extract_label)
         prompt_class = TestPrompt(task)
 
         for hypothesis in dict:
@@ -126,15 +126,13 @@ def main():
             else:
                 logger.info("Using test data")
 
-            pred_list, label_list = inference_class.multiple_hypotheses_run_inference_final(
+            pred_list, label_list = inference_class.run_inference_final(
                 test_data,
                 hyp_bank,
                 cache_seed=cache_seed,
                 max_concurrent=max_concurrent,
-                generate_kwargs={
-                    "max_tokens": max_tokens,
-                    "temperature": temperature,
-                },
+                max_tokens=max_tokens,
+                temperature=temperature
             )
 
             pred_list = change_missing_labels(pred_list, label_list) # change prediction="other" (cannot extract label) to false labels for F1 calculation
