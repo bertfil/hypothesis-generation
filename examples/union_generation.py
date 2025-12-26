@@ -175,7 +175,6 @@ def main():
             union_hyp_bank,
             cache_seed=cache_seed,
             max_concurrent=max_concurrent,
-            generate_kwargs={
             max_tokens=max_tokens,
             temperature=temperature
         )
