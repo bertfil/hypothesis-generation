@@ -65,7 +65,7 @@ def main():
     # model_name = "meta-llama/Meta-Llama-3.1-70B-Instruct"
 
     test_ood = False # set to True if testing on OOD data
-    use_valid = True # set to True if testing with validation set
+    use_valid = False # set to True if testing with validation set
     use_refine = True # set to True if using HypoRefine, or False for HypoGeniC
 
     if test_ood:
