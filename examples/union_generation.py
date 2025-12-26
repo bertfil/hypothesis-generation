@@ -85,7 +85,7 @@ def main():
     max_num_hypotheses = 20
     max_refine = 6 # round of refinement for HypoRefine
     num_init = 10
-    num_train = 500 # max num of train data = 2,930
+    num_train = 200 # max num of train data = 2,930
     num_test = 300 # max num of test data = 308
     num_val = 300 # max num of val data = 518
     k = 10
