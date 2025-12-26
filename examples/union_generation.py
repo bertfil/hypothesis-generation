@@ -170,7 +170,7 @@ def main():
 
         inference_class = MultiHypDefaultInference(api, prompt_class, train_data, task)
 
-        pred_list, label_list = inference_class.multiple_hypotheses_run_inference_final(
+        pred_list, label_list = inference_class.run_inference_final(
             test_data,
             union_hyp_bank,
             cache_seed=cache_seed,
