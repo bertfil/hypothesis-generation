@@ -13,7 +13,7 @@ from typing import Union
 import torch
 import numpy as np
 
-from hypogenic.extract_label import retweet_extract_label
+from hypogenic.extract_label import clarity_extract_label
 
 from hypogenic.tasks import BaseTask
 from hypogenic.prompt import BasePrompt
@@ -51,7 +51,7 @@ def main():
     start_time = time.time()
 
     # For detailed argument descriptions, please run `hypogenic_inference --help` or see `hypogenic_cmd/inference.py`
-    task_config_path = "./data/retweet/config.yaml"
+    task_config_path = "./data/clarity/config.yaml"
     # model_name = "meta-llama/Meta-Llama-3.1-8B-Instruct"
     # model_path = "/net/scratch/llama/Meta-Llama-3.1-8B-Instruct"
     # model_type = "vllm"
@@ -61,11 +61,11 @@ def main():
     model_type = "gpt"
     inference_type = "default" # options: default, filter_and_weight, one_step_adaptive, two_step_adaptive
 
-    hypothesis_file = f"./outputs/retweet/{model_name}/hyp_20/hypotheses_training_sample_final_seed_42_epoch_0.json"
+    hypothesis_file = f"./outputs/union/union/clarity/gpt-4o-mini/hyp_20/refine_6/union_prioritize_balanced_refine_6.json""
     adaptive_num_hypotheses = 5
-    num_train = 75
-    num_test = 25
-    num_val = 10
+    num_train = 200
+    num_test = 300
+    num_val = 300
     use_valid = False
     seeds = [49]
     cache_seed = None
@@ -78,7 +78,7 @@ def main():
     dict = load_dict(hypothesis_file)
     hyp_bank = {}
 
-    task = BaseTask(task_config_path, extract_label=retweet_extract_label)
+    task = BaseTask(task_config_path, extract_label=clarity_extract_label)
 
     for hypothesis in dict:
         hyp_bank[hypothesis] = SummaryInformation.from_dict(dict[hypothesis])
