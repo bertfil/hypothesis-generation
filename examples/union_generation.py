@@ -21,7 +21,7 @@ from hypogenic.extract_label import extract_label_register, persuasive_pairs_ext
 from hypogenic.tasks import BaseTask
 from hypogenic.prompt import BasePrompt
 from hypogenic.utils import set_seed
-from hypogenic.LLM_wrapper import LocalVllmWrapper, LLMWrapper, GPTWrapper
+from hypogenic.LLM_wrapper import LLMWrapper, GPTWrapper
 from hypogenic.algorithm.summary_information import (
     SummaryInformation,
 )
