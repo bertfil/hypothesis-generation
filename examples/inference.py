@@ -67,7 +67,7 @@ def main():
     num_test = 300
     num_val = 300
     use_valid = False
-    seeds = [49]
+    seeds = [42]
     cache_seed = None
     max_concurrent = 3
     temperature = 1e-5
