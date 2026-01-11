@@ -20,6 +20,7 @@ from hypogenic.LLM_wrapper import LLMWrapper, GPTWrapper
 # from hypogenic.LLM_wrapper import LocalVllmWrapper
 from hypogenic.prompt import BasePrompt
 from hypogenic.logger_config import LoggerConfig
+from sklearn.metrics import f1_score
 
 logger = LoggerConfig.get_logger("HypoGenic")
 
@@ -36,8 +37,12 @@ def compute_accuracy(results):
         else:
             x.append(0)
     acc = sum(x) / len(x)
+
+    f1 = f1_score(labels, preds, average='macro', zero_division=0)
+    
     logger.info(f"non-safety mode record: {len(x) - safety_mode}")
     logger.info(f"Accuracy: {acc}")
+    logger.info(f"F1 Score: {f1}")
     return acc
 
 
