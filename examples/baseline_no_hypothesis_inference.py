@@ -12,7 +12,7 @@ import pandas as pd
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from hypogenic.extract_label import retweet_extract_label
+from hypogenic.extract_label import clarity_extract_label
 
 from hypogenic.tasks import BaseTask
 from hypogenic.utils import set_seed
@@ -103,21 +103,21 @@ def main():
 
     seed = 42
     task_config_path = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), f"data/retweet/config.yaml"
+        os.path.dirname(os.path.dirname(__file__)), f"data/clarity/config.yaml"
     )
-    task = "retweet"
+    task = "clarity"
     model_name = "gpt-4o-mini"
     # model_name = "meta-llama/Meta-Llama-3.1-8B-Instruct"
     # model_path = "/net/scratch/llama/Meta-Llama-3.1-8B-Instruct"
-    num_test = 100
-    num_train = 100
-    num_val = 100
+    num_train = 200 # max num of train data = 2,930
+    num_test = 300 # max num of test data = 308
+    num_val = 300 # max num of val data = 518
     few_shot_k = 3
     cache_seed = None
 
     set_seed(seed)
 
-    task = BaseTask(task_config_path, extract_label=retweet_extract_label)
+    task = BaseTask(task_config_path, extract_label=clarity_extract_label)
 
     prompt_class = BasePrompt(task)
     api = GPTWrapper(model_name)
